@@ -135,7 +135,7 @@ angular.module('dfApplication', ['dfUtility', 'dfUserManagement', 'ngResource'])
                 }
 
                 xhr.open("GET", INSTANCE_URL.url + '/system/' + api, false);
-                xhr.setRequestHeader("X-DreamFactory-API-Key", "6498a8ad1beb9d84d63035c5d1120c007fad6de706734db9689f8996707e0f7d");
+
                 if (currentUser && currentUser.session_token) {
                     xhr.setRequestHeader("X-DreamFactory-Session-Token", currentUser.session_token);
                 }

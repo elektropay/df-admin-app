@@ -1048,7 +1048,7 @@ angular.module('dfAdmins', ['ngRoute', 'dfUtility', 'dfApplication', 'dfHelp'])
         };
     }])
 
-    .directive('dfExportAdmins', ['MOD_ADMIN_ASSET_PATH', 'INSTANCE_URL', 'UserDataService', '$http', '$window', 'APP_API_KEY', function (MOD_ADMIN_ASSET_PATH, INSTANCE_URL, UserDataService, $http, $window, APP_API_KEY) {
+    .directive('dfExportAdmins', ['MOD_ADMIN_ASSET_PATH', 'INSTANCE_URL', 'UserDataService', '$http', '$window', 'SystemConfigDataService', function (MOD_ADMIN_ASSET_PATH, INSTANCE_URL, UserDataService, $http, $window, SystemConfigDataService) {
 
         return {
 
@@ -1077,7 +1077,7 @@ angular.module('dfAdmins', ['ngRoute', 'dfUtility', 'dfApplication', 'dfHelp'])
 
                         scope.fileFormatStr = fileFormatStr;
 
-                        var params = 'file=admin.' + scope.fileFormatStr + '&api_key=' + APP_API_KEY;
+                        var params = 'file=admin.' + scope.fileFormatStr + '&api_key=' + SystemConfigDataService.getApiKey();
                         var currentUser = UserDataService.getCurrentUser();
                         if (currentUser && currentUser.session_token) {
                             params += '&session_token=' + currentUser.session_token;

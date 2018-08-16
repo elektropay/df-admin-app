@@ -1413,6 +1413,10 @@ angular.module('dfSystemConfig', ['ngRoute', 'dfUtility', 'dfApplication'])
             getSystemConfig: function () {
 
                 return dfApplicationData.getApiDataSync('environment');
+            },
+            getApiKey: function () {
+
+                return this.getSystemConfig().platform.api_key
             }
         };
     }

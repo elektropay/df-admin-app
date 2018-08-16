@@ -1123,7 +1123,7 @@ angular.module('dfUsers', ['ngRoute', 'dfUtility', 'dfApplication', 'dfHelp'])
         };
     }])
 
-    .directive('dfExportUsers', ['MOD_USER_ASSET_PATH', 'INSTANCE_URL', 'UserDataService', '$http', '$window', 'APP_API_KEY', function (MOD_USER_ASSET_PATH, INSTANCE_URL, UserDataService, $http, $window, APP_API_KEY) {
+    .directive('dfExportUsers', ['MOD_USER_ASSET_PATH', 'INSTANCE_URL', 'UserDataService', '$http', '$window', 'SystemConfigDataService', function (MOD_USER_ASSET_PATH, INSTANCE_URL, UserDataService, $http, $window, SystemConfigDataService) {
 
         return {
 
@@ -1152,7 +1152,7 @@ angular.module('dfUsers', ['ngRoute', 'dfUtility', 'dfApplication', 'dfHelp'])
 
                         scope.fileFormatStr = fileFormatStr;
 
-                        var params = 'file=user.' + scope.fileFormatStr + '&api_key=' + APP_API_KEY;
+                        var params = 'file=user.' + scope.fileFormatStr + '&api_key=' + SystemConfigDataService.getApiKey() ;
                         var currentUser = UserDataService.getCurrentUser();
                         if (currentUser && currentUser.session_token) {
                             params += '&session_token=' + currentUser.session_token;
