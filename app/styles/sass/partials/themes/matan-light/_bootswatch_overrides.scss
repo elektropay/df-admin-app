@@ -1,0 +1,53 @@
+.btn-primary {
+
+  &:hover {
+    color: #FFF;
+  }
+}
+
+.navbar-default {
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.07);
+}
+
+.df-menu {
+  .nav-pills {
+    > li {
+      a {
+        color: #7490a9;
+      }
+
+      &.active > a {
+        &,
+        &:hover,
+        &:focus {
+          font-weight: bold;
+          color: $nav-pills-active-link-hover-color;
+          background-color: $nav-pills-active-link-hover-bg;
+        }
+      }
+
+      &.active:after {
+        position: absolute;
+        height: 3px;
+        margin: 0 auto;
+        content: '';
+        left: 0;
+        right: 0;
+        width: 90%;
+        color: #000;
+        background-color: #5b5bd9;
+        left: 0;
+        bottom: 4px;
+        width: 16px;
+        opacity: 0.3;
+        border-radius: 3px;
+        border: 1px solid #5b5bd9;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+.df-section {
+  background-color: rgba(236, 239, 242, 0.4);
+}
