@@ -9,43 +9,106 @@
   box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.07);
 }
 
+.navbar-fixed-top {
+  .navbar-brand {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .navbar-right {
+    margin-right: 0px !important;
+  }
+}
+
 .df-menu {
-  .nav-pills {
-    > li {
-      a {
-        color: #7490a9;
-      }
+  & {
+    margin: 0px auto !important;
+  }
 
-      &.active > a {
-        &,
-        &:hover,
-        &:focus {
-          font-weight: bold;
-          color: $nav-pills-active-link-hover-color;
-          background-color: $nav-pills-active-link-hover-bg;
+  .df-menu-container {
+    & {
+      display: table;
+    }
+
+    .df-menu-icon {
+      display: table-cell;
+      vertical-align: middle;
+      color: #2e2ea3;
+    }
+
+    .nav-pills {
+      > li {
+        a {
+          color: #7490a9;
+          margin: 10px auto;
         }
-      }
 
-      &.active:after {
-        position: absolute;
-        height: 3px;
-        margin: 0 auto;
-        content: '';
-        left: 0;
-        right: 0;
-        width: 90%;
-        color: #000;
-        background-color: #5b5bd9;
-        left: 0;
-        bottom: 4px;
-        width: 16px;
-        opacity: 0.3;
-        border-radius: 3px;
-        border: 1px solid #5b5bd9;
-        border-radius: 10px;
+        &.active {
+          & {
+            background-color: rgba(236, 239, 242, 0.3);
+          }
+
+          & > a {
+            &,
+            &:hover,
+            &:focus {
+              font-weight: bold;
+              color: $nav-pills-active-link-hover-color;
+              background-color: $nav-pills-active-link-hover-bg;
+            }
+          }
+        }
+
+        &.active:after {
+          position: absolute;
+          height: 3px;
+          margin: 0 auto;
+          content: '';
+          left: 0;
+          right: 0;
+          width: 90%;
+          color: #000;
+          background-color: #5b5bd9;
+          left: 0;
+          bottom: 14px;
+          width: 16px;
+          opacity: 0.3;
+          border-radius: 3px;
+          border: 1px solid #5b5bd9;
+          border-radius: 10px;
+        }
       }
     }
   }
+}
+
+body .df-sidebar-nav {
+
+  .nav-pills {
+    li {
+      & > a {
+        padding-left: 0px;
+      }
+
+      & > a:hover {
+        background: transparent;
+        color: $link-color;
+        font-weight: bold;
+      }
+
+      &.active {
+        & a {
+          font-weight: bold;
+        }
+
+        &:hover a{
+          color: $nav-pills-active-link-hover-color;
+        }
+      }
+    }
+  }
+
+
 }
 
 .df-section {

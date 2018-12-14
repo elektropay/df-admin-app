@@ -49,6 +49,7 @@ angular.module('dfHome', ['ngRoute', 'dfUtility', 'dfApplication', 'dfHelp'])
             };
 
             $scope.$parent.title = 'Home';
+            $scope.$parent.titleIcon = 'home';
 
             // Set module links
 

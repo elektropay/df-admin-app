@@ -29,6 +29,7 @@ angular.module('dfApps', ['ngRoute', 'dfUtility', 'dfApplication', 'dfHelp', 'df
 
         // Set Title in parent
         $scope.$parent.title = 'Apps';
+        $scope.$parent.titleIcon = 'desktop';
 
         // Set module links
         $scope.links = [
