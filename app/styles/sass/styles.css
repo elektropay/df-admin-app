@@ -9038,6 +9038,35 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   background-color: rgba(236, 239, 242, 0.4);
 }
 
+/* line 2, partials/themes/matan-light/homepage.scss */
+#welcomePage .banner {
+  margin-top: 40px;
+}
+/* line 5, partials/themes/matan-light/homepage.scss */
+#welcomePage .banner .banner-container {
+  border-radius: 2px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+/* line 13, partials/themes/matan-light/homepage.scss */
+#welcomePage .banner .banner-container > div {
+  display: inline-block;
+  color: #1d3d56;
+  min-height: 185px;
+}
+/* line 18, partials/themes/matan-light/homepage.scss */
+#welcomePage .banner .banner-container > div h4 {
+  font-weight: bold;
+  color: #2e2ea3;
+  font-size: 14px;
+}
+/* line 23, partials/themes/matan-light/homepage.scss */
+#welcomePage .banner .banner-container > div h4 i.fa {
+  color: #faa20c;
+}
+
 /* line 9, partials/_base.scss */
 html {
   height: 100%;
@@ -9649,7 +9678,7 @@ body {
   z-index: 10001;
 }
 
-/* line 38, styles.scss */
+/* line 40, styles.scss */
 [data-ng-click] {
   cursor: pointer;
 }

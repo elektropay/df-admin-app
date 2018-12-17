@@ -1,0 +1,30 @@
+#welcomePage {
+  .banner {
+    margin-top: 40px;
+
+    .banner-container {
+      border-radius: 2px;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+
+      padding-top: 15px;
+      padding-bottom: 25px;
+
+      & > div {
+        display: inline-block;
+        color: #1d3d56;
+        min-height: 185px;
+
+        h4 {
+          font-weight: bold;
+          color: #2e2ea3;
+          font-size: 14px;
+
+          i.fa {
+            color: #faa20c;
+          }
+        }
+      }
+    }
+  }
+}
