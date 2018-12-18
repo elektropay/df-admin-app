@@ -6,6 +6,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url(font-awesome.min.css);
+@import url(lato.css);
 /* line 9, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -8945,56 +8946,61 @@ button.close {
   background-color: #fff;
 }
 
-/* line 3, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 1, partials/themes/matan-light/_bootswatch_overrides.scss */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* line 7, partials/themes/matan-light/_bootswatch_overrides.scss */
 .btn-primary:hover {
   color: #FFF;
 }
 
-/* line 8, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 12, partials/themes/matan-light/_bootswatch_overrides.scss */
 .navbar-default {
   box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.07);
 }
 
-/* line 13, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 17, partials/themes/matan-light/_bootswatch_overrides.scss */
 .navbar-fixed-top .navbar-brand {
   margin-left: 0px !important;
   padding-left: 0px !important;
 }
-/* line 18, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 22, partials/themes/matan-light/_bootswatch_overrides.scss */
 .navbar-fixed-top .navbar-right {
   margin-right: 0px !important;
 }
 
-/* line 24, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 28, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu {
   margin: 0px auto !important;
 }
-/* line 29, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 33, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container {
   display: table;
 }
-/* line 33, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 37, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container .df-menu-icon {
   display: table-cell;
   vertical-align: middle;
   color: #2e2ea3;
 }
-/* line 41, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 45, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container .nav-pills > li a {
   color: #7490a9;
   margin: 10px auto;
 }
-/* line 47, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 51, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container .nav-pills > li.active {
   background-color: rgba(236, 239, 242, 0.3);
 }
-/* line 52, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 56, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container .nav-pills > li.active > a, .df-menu .df-menu-container .nav-pills > li.active > a:hover, .df-menu .df-menu-container .nav-pills > li.active > a:focus {
   font-weight: bold;
   color: #5b5bd9;
   background-color: transparent;
 }
-/* line 62, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 66, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container .nav-pills > li.active:after {
   position: absolute;
   height: 3px;
@@ -9014,35 +9020,35 @@ button.close {
   border-radius: 10px;
 }
 
-/* line 89, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 93, partials/themes/matan-light/_bootswatch_overrides.scss */
 body .df-sidebar-nav .nav-pills li > a {
   padding-left: 0px;
 }
-/* line 93, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 97, partials/themes/matan-light/_bootswatch_overrides.scss */
 body .df-sidebar-nav .nav-pills li > a:hover {
   background: transparent;
   color: #1d3d56;
   font-weight: bold;
 }
-/* line 100, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 104, partials/themes/matan-light/_bootswatch_overrides.scss */
 body .df-sidebar-nav .nav-pills li.active a {
   font-weight: bold;
 }
-/* line 104, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 108, partials/themes/matan-light/_bootswatch_overrides.scss */
 body .df-sidebar-nav .nav-pills li.active:hover a {
   color: #5b5bd9;
 }
 
-/* line 114, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 118, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-section {
   background-color: rgba(236, 239, 242, 0.4);
 }
 
-/* line 2, partials/themes/matan-light/homepage.scss */
+/* line 2, partials/themes/matan-light/_homepage.scss */
 #welcomePage .banner {
   margin-top: 40px;
 }
-/* line 5, partials/themes/matan-light/homepage.scss */
+/* line 5, partials/themes/matan-light/_homepage.scss */
 #welcomePage .banner .banner-container {
   border-radius: 2px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
@@ -9050,36 +9056,36 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   padding-top: 15px;
   padding-bottom: 25px;
 }
-/* line 13, partials/themes/matan-light/homepage.scss */
+/* line 13, partials/themes/matan-light/_homepage.scss */
 #welcomePage .banner .banner-container > div {
   display: inline-block;
   color: #1d3d56;
 }
 @media (min-width: 992px) and (max-width: 1222px) {
-  /* line 13, partials/themes/matan-light/homepage.scss */
+  /* line 13, partials/themes/matan-light/_homepage.scss */
   #welcomePage .banner .banner-container > div {
     min-height: 215px;
   }
 }
 @media (max-width: 992px) and (min-width: 792px) {
-  /* line 13, partials/themes/matan-light/homepage.scss */
+  /* line 13, partials/themes/matan-light/_homepage.scss */
   #welcomePage .banner .banner-container > div {
     min-height: 155px;
   }
 }
 @media (min-width: 1223px) {
-  /* line 13, partials/themes/matan-light/homepage.scss */
+  /* line 13, partials/themes/matan-light/_homepage.scss */
   #welcomePage .banner .banner-container > div {
     min-height: 185px;
   }
 }
-/* line 31, partials/themes/matan-light/homepage.scss */
+/* line 31, partials/themes/matan-light/_homepage.scss */
 #welcomePage .banner .banner-container > div h4 {
   font-weight: bold;
   color: #2e2ea3;
   font-size: 14px;
 }
-/* line 36, partials/themes/matan-light/homepage.scss */
+/* line 36, partials/themes/matan-light/_homepage.scss */
 #welcomePage .banner .banner-container > div h4 i.fa {
   color: #faa20c;
 }
@@ -9695,7 +9701,7 @@ body {
   z-index: 10001;
 }
 
-/* line 40, styles.scss */
+/* line 41, styles.scss */
 [data-ng-click] {
   cursor: pointer;
 }

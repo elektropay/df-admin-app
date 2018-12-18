@@ -15,13 +15,14 @@
 // theme bootswatch overrides, these allow bootswatch overrides on a specific theme
 @import "partials/themes/matan-light/_bootswatch_overrides.scss";
 
-@import "partials/themes/matan-light/homepage.scss";
+@import "partials/themes/matan-light/_homepage.scss";
 
 // needed for filter gradient
 @import "compass";
 
 
 @import "font-awesome.min.css";
+@import "lato.css";
 
 // Custom DreamFactory SCSS
 @import "partials/_base.scss";
