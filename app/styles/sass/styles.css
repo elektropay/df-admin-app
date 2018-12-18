@@ -9045,48 +9045,55 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
 }
 
 /* line 2, partials/themes/matan-light/_homepage.scss */
-#welcomePage .banner {
-  margin-top: 40px;
+.main-page .df-section {
+  padding-left: 15px;
+  padding-right: 15px;
 }
-/* line 5, partials/themes/matan-light/_homepage.scss */
-#welcomePage .banner .banner-container {
+/* line 8, partials/themes/matan-light/_homepage.scss */
+.main-page #welcomePage .banner {
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 13, partials/themes/matan-light/_homepage.scss */
+.main-page #welcomePage .banner .banner-container {
   border-radius: 2px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   padding-top: 15px;
   padding-bottom: 25px;
 }
-/* line 13, partials/themes/matan-light/_homepage.scss */
-#welcomePage .banner .banner-container > div {
+/* line 21, partials/themes/matan-light/_homepage.scss */
+.main-page #welcomePage .banner .banner-container > div {
   display: inline-block;
   color: #1d3d56;
 }
 @media (min-width: 992px) and (max-width: 1222px) {
-  /* line 13, partials/themes/matan-light/_homepage.scss */
-  #welcomePage .banner .banner-container > div {
-    min-height: 215px;
+  /* line 21, partials/themes/matan-light/_homepage.scss */
+  .main-page #welcomePage .banner .banner-container > div {
+    min-height: 170px;
   }
 }
 @media (max-width: 992px) and (min-width: 792px) {
-  /* line 13, partials/themes/matan-light/_homepage.scss */
-  #welcomePage .banner .banner-container > div {
+  /* line 21, partials/themes/matan-light/_homepage.scss */
+  .main-page #welcomePage .banner .banner-container > div {
     min-height: 155px;
   }
 }
 @media (min-width: 1223px) {
-  /* line 13, partials/themes/matan-light/_homepage.scss */
-  #welcomePage .banner .banner-container > div {
+  /* line 21, partials/themes/matan-light/_homepage.scss */
+  .main-page #welcomePage .banner .banner-container > div {
     min-height: 185px;
   }
 }
-/* line 31, partials/themes/matan-light/_homepage.scss */
-#welcomePage .banner .banner-container > div h4 {
+/* line 39, partials/themes/matan-light/_homepage.scss */
+.main-page #welcomePage .banner .banner-container > div h4 {
   font-weight: bold;
   color: #2e2ea3;
   font-size: 14px;
 }
-/* line 36, partials/themes/matan-light/_homepage.scss */
-#welcomePage .banner .banner-container > div h4 i.fa {
+/* line 44, partials/themes/matan-light/_homepage.scss */
+.main-page #welcomePage .banner .banner-container > div h4 i.fa {
   color: #faa20c;
 }
 
