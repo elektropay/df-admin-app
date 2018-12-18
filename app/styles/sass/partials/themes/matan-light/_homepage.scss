@@ -8,6 +8,25 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
     padding-right: 15px;
   }
 
+
+  .grid-24 {
+    @media (min-width: $screen-md-min) {
+      &.col-md-24 {
+        width: percentage(1);
+      }
+    }
+
+    @media (min-width: $screen-lg-min) {
+      &.col-lg-offset-1 {
+        margin-left: percentage(1 / 24);;
+      }
+
+      &.col-lg-22 {
+        width: percentage(22 / 24);
+      }
+    }
+  }
+
   #welcomePage {
     .banner {
       border-radius: 2px;
@@ -19,10 +38,10 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
       margin-top: 30px;
       padding-left: 15px;
       padding-right: 15px;
-      //border: 1px #00b3ee solid;
+      border: 1px #00b3ee solid;
 
       .first-banner-container {
-        //border: 1px #00bc8c solid;
+        border: 1px #00bc8c solid;
 
         padding-top: 15px;
         padding-bottom: 25px;
@@ -66,10 +85,10 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
       padding-left: 15px;
       padding-right: 15px;
       margin-top: 30px;
-      //border: 1px #00b3ee solid;
+      border: 1px #00b3ee solid;
 
       .second-banner-container {
-        //border: 1px #00bc8c solid;
+        border: 1px #00bc8c solid;
         padding-right: 0px;
         padding-left: 0px;
 
@@ -96,11 +115,11 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
         margin: auto;
         position: relative;
 
-        & > img {
+        & img {
           width: 100%;
         }
 
-        & > .df-mac-preview-overlay {
+        & .df-mac-preview-overlay {
           width: 100%;
           height: 68%;
           position: absolute;
