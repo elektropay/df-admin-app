@@ -32,16 +32,21 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
       border-radius: 2px;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
       background-color: #ffffff;
+
+      &.outligned {
+        border-radius: 4px;
+        box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+      }
     }
 
     .first-banner {
       margin-top: 30px;
       padding-left: 15px;
       padding-right: 15px;
-      border: 1px #00b3ee solid;
+      //border: 1px #00b3ee solid;
 
       .first-banner-container {
-        border: 1px #00bc8c solid;
+        //border: 1px #00bc8c solid;
 
         padding-top: 15px;
         padding-bottom: 25px;
@@ -85,10 +90,10 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
       padding-left: 15px;
       padding-right: 15px;
       margin-top: 30px;
-      border: 1px #00b3ee solid;
+      //border: 1px #00b3ee solid;
 
       .second-banner-container {
-        border: 1px #00bc8c solid;
+        //border: 1px #00bc8c solid;
         padding-right: 0px;
         padding-left: 0px;
 
@@ -100,7 +105,6 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
         font-size: 16px;
 
         h3 {
-          font-family: Lato;
           margin-top: 0px;
           color: #2e2ea3;
           font-size: 25px;
@@ -172,10 +176,42 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
         padding-top: 2px;
         padding-bottom: 3px;
 
-        border-radius: 4px;
-        box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
-
         margin-bottom: 10px;
+      }
+
+      .examples-heading {
+        font-weight: bold;
+        margin-bottom: 18px;
+      }
+
+      .examples-subheading {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      .example-item-container {
+        @media (max-width: #{ $screen-xs-max - 150px }) {
+          font-size: 11px;
+        }
+        margin-bottom: 56px;
+
+        .example-item {
+          width: 100px;
+          height: 100px;
+          margin: auto;
+          padding-top: 23px;
+          display: inline-block;
+          margin-bottom: 20px;
+
+          img {
+            width: 50px;
+          }
+        }
+
+        .example-item-name {
+          font-weight: 300;
+          color: #2b5172;
+        }
       }
     }
   }
