@@ -75,6 +75,9 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
   }
 
   #welcomePage {
+    .bdivider {
+      margin-top: 40px;
+    }
 
     .first-banner {
       margin-top: 30px;
@@ -91,24 +94,8 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
         & > div {
           display: inline-block;
           color: #1d3d56;
-
-
-          @media (min-width: $screen-md-min) and (max-width: $screen-md-min + 230px) {
-            min-height: 180px;
-          }
-
-          @media (max-width: $screen-md-min) and (min-width: $screen-md-min - 200px) {
-            min-height: 155px;
-          }
-
-          @media (min-width: $screen-md-min + 231px) {
-            min-height: 185px;
-          }
-
-          @media (min-width: $screen-lg-min + 280px) {
-            min-height: 140px;
-          }
-
+          padding-top: 10px;
+          padding-bottom: 20px;
 
           h4 {
             font-weight: bold;
@@ -153,7 +140,6 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
       .df-mac-preview {
         width: 80%;
         display: block;
-        margin: auto;
         position: relative;
 
         & img {
