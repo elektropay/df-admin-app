@@ -9181,7 +9181,7 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
 /* line 149, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay {
   width: 100%;
-  height: 68%;
+  height: 60%;
   position: absolute;
   top: 0;
   left: 0;
@@ -9218,7 +9218,7 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
 /* line 185, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.text > div {
   display: block;
-  margin-top: calc(36% + (1vw / 3) + 3px);
+  margin-top: calc(30% + (1vw / 3) + 3px);
   color: #0a0a75;
 }
 /* line 194, partials/themes/matan-light/_homepage.scss */
