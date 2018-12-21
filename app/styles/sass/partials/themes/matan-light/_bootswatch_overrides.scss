@@ -26,14 +26,17 @@
   }
 
   .df-menu-container {
-    & {
-      display: table;
+
+    &.second-nav-menu-items {
+      padding-left: 0px;
+      padding-right: 0px;
     }
 
     .df-menu-icon {
-      display: table-cell;
       vertical-align: middle;
       color: #2e2ea3;
+      padding: 10px 15px 10px 0px;
+      margin: 10px auto;
     }
 
     .nav-pills {

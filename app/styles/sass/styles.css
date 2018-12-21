@@ -8970,32 +8970,34 @@ button.close {
 .df-menu {
   margin: 0px auto !important;
 }
-/* line 29, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container {
-  display: table;
+/* line 30, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container.second-nav-menu-items {
+  padding-left: 0px;
+  padding-right: 0px;
 }
-/* line 33, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 35, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container .df-menu-icon {
-  display: table-cell;
   vertical-align: middle;
   color: #2e2ea3;
+  padding: 10px 15px 10px 0px;
+  margin: 10px auto;
 }
-/* line 41, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 44, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container .nav-pills > li a {
   color: #7490a9;
   margin: 10px auto;
 }
-/* line 47, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 50, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container .nav-pills > li.active {
   background-color: rgba(236, 239, 242, 0.3);
 }
-/* line 52, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 55, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container .nav-pills > li.active > a, .df-menu .df-menu-container .nav-pills > li.active > a:hover, .df-menu .df-menu-container .nav-pills > li.active > a:focus {
   font-weight: bold;
   color: #5b5bd9;
   background-color: transparent;
 }
-/* line 62, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 65, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-menu .df-menu-container .nav-pills > li.active:after {
   position: absolute;
   height: 3px;
@@ -9015,119 +9017,157 @@ button.close {
   border-radius: 10px;
 }
 
-/* line 89, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 92, partials/themes/matan-light/_bootswatch_overrides.scss */
 body .df-sidebar-nav .nav-pills li > a {
   padding-left: 0px;
 }
-/* line 93, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 96, partials/themes/matan-light/_bootswatch_overrides.scss */
 body .df-sidebar-nav .nav-pills li > a:hover {
   background: transparent;
   color: #1d3d56;
   font-weight: bold;
 }
-/* line 100, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 103, partials/themes/matan-light/_bootswatch_overrides.scss */
 body .df-sidebar-nav .nav-pills li.active a {
   font-weight: bold;
 }
-/* line 104, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 107, partials/themes/matan-light/_bootswatch_overrides.scss */
 body .df-sidebar-nav .nav-pills li.active:hover a {
   color: #5b5bd9;
 }
 
-/* line 114, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 117, partials/themes/matan-light/_bootswatch_overrides.scss */
 .df-section {
   background-color: rgba(236, 239, 242, 0.4);
 }
 
-/* line 6, partials/themes/matan-light/_homepage.scss */
+/* line 7, partials/themes/matan-light/_homepage.scss */
+.main-page .banner {
+  border-radius: 2px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+/* line 12, partials/themes/matan-light/_homepage.scss */
+.main-page .banner.outligned {
+  border-radius: 4px;
+  box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+}
+/* line 18, partials/themes/matan-light/_homepage.scss */
+.main-page .examples-heading {
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+/* line 23, partials/themes/matan-light/_homepage.scss */
+.main-page .examples-subheading {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+/* line 28, partials/themes/matan-light/_homepage.scss */
+.main-page .example-item-container {
+  margin-bottom: 56px;
+}
+@media (max-width: 617px) {
+  /* line 28, partials/themes/matan-light/_homepage.scss */
+  .main-page .example-item-container {
+    font-size: 11px;
+  }
+}
+/* line 34, partials/themes/matan-light/_homepage.scss */
+.main-page .example-item-container .example-item {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  padding-top: 23px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+/* line 42, partials/themes/matan-light/_homepage.scss */
+.main-page .example-item-container .example-item img {
+  width: 50px;
+}
+/* line 47, partials/themes/matan-light/_homepage.scss */
+.main-page .example-item-container .example-item-name {
+  font-weight: 300;
+  color: #2b5172;
+}
+/* line 53, partials/themes/matan-light/_homepage.scss */
 .main-page .df-section {
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 992px) {
-  /* line 14, partials/themes/matan-light/_homepage.scss */
+  /* line 61, partials/themes/matan-light/_homepage.scss */
   .main-page .grid-24.col-md-24 {
     width: 100%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 20, partials/themes/matan-light/_homepage.scss */
+  /* line 67, partials/themes/matan-light/_homepage.scss */
   .main-page .grid-24.col-lg-offset-1 {
     margin-left: 4.16666667%;
   }
-  /* line 24, partials/themes/matan-light/_homepage.scss */
+  /* line 71, partials/themes/matan-light/_homepage.scss */
   .main-page .grid-24.col-lg-22 {
     width: 91.66666667%;
   }
 }
-/* line 31, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .banner {
-  border-radius: 2px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
-}
-/* line 36, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .banner.outligned {
-  border-radius: 4px;
-  box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
-}
-/* line 42, partials/themes/matan-light/_homepage.scss */
+/* line 79, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .first-banner {
   margin-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 48, partials/themes/matan-light/_homepage.scss */
+/* line 85, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .first-banner .first-banner-container {
   padding-top: 15px;
   padding-bottom: 25px;
 }
-/* line 54, partials/themes/matan-light/_homepage.scss */
+/* line 91, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .first-banner .first-banner-container > div {
   display: inline-block;
   color: #1d3d56;
 }
 @media (min-width: 992px) and (max-width: 1222px) {
-  /* line 54, partials/themes/matan-light/_homepage.scss */
+  /* line 91, partials/themes/matan-light/_homepage.scss */
   .main-page #welcomePage .first-banner .first-banner-container > div {
     min-height: 180px;
   }
 }
 @media (max-width: 992px) and (min-width: 792px) {
-  /* line 54, partials/themes/matan-light/_homepage.scss */
+  /* line 91, partials/themes/matan-light/_homepage.scss */
   .main-page #welcomePage .first-banner .first-banner-container > div {
     min-height: 155px;
   }
 }
 @media (min-width: 1223px) {
-  /* line 54, partials/themes/matan-light/_homepage.scss */
+  /* line 91, partials/themes/matan-light/_homepage.scss */
   .main-page #welcomePage .first-banner .first-banner-container > div {
     min-height: 185px;
   }
 }
 @media (min-width: 1480px) {
-  /* line 54, partials/themes/matan-light/_homepage.scss */
+  /* line 91, partials/themes/matan-light/_homepage.scss */
   .main-page #welcomePage .first-banner .first-banner-container > div {
     min-height: 140px;
   }
 }
-/* line 76, partials/themes/matan-light/_homepage.scss */
+/* line 113, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .first-banner .first-banner-container > div h4 {
   font-weight: bold;
   color: #2e2ea3;
   font-size: 14px;
 }
-/* line 81, partials/themes/matan-light/_homepage.scss */
+/* line 118, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .first-banner .first-banner-container > div h4 i.fa {
   color: #faa20c;
 }
-/* line 89, partials/themes/matan-light/_homepage.scss */
+/* line 126, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 30px;
 }
-/* line 95, partials/themes/matan-light/_homepage.scss */
+/* line 132, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .second-banner-container {
   padding-right: 0px;
   padding-left: 0px;
@@ -9138,7 +9178,7 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   color: #1d3d56;
   font-size: 16px;
 }
-/* line 107, partials/themes/matan-light/_homepage.scss */
+/* line 144, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .second-banner-container h3 {
   margin-top: 0px;
   color: #2e2ea3;
@@ -9146,18 +9186,18 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   font-weight: bold;
   margin-bottom: 0px;
 }
-/* line 116, partials/themes/matan-light/_homepage.scss */
+/* line 153, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview {
   width: 80%;
   display: block;
   margin: auto;
   position: relative;
 }
-/* line 122, partials/themes/matan-light/_homepage.scss */
+/* line 159, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview img {
   width: 100%;
 }
-/* line 126, partials/themes/matan-light/_homepage.scss */
+/* line 163, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay {
   width: 100%;
   height: 68%;
@@ -9166,12 +9206,12 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   left: 0;
   z-index: 20;
 }
-/* line 135, partials/themes/matan-light/_homepage.scss */
+/* line 172, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.blured {
   opacity: 0.8;
   background-color: #ffffff;
 }
-/* line 140, partials/themes/matan-light/_homepage.scss */
+/* line 177, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.circle {
   width: calc(2vw + 30px);
   height: calc(2vw + 30px);
@@ -9182,25 +9222,25 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   border: 1px #5b5bd9 solid;
   text-align: center;
 }
-/* line 150, partials/themes/matan-light/_homepage.scss */
+/* line 187, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.circle .fa-play {
   vertical-align: middle;
   font-size: calc(1vw + 10px);
   margin-left: 9%;
   color: #5b5bd9;
 }
-/* line 158, partials/themes/matan-light/_homepage.scss */
+/* line 195, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.text {
   text-align: center;
   font-size: 14px;
 }
-/* line 162, partials/themes/matan-light/_homepage.scss */
+/* line 199, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.text > div {
   display: block;
   margin-top: calc(36% + (1vw / 3) + 3px);
   color: #0a0a75;
 }
-/* line 171, partials/themes/matan-light/_homepage.scss */
+/* line 208, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .resource-link {
   display: inline-block;
   padding-right: 15px;
@@ -9208,44 +9248,6 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   padding-top: 2px;
   padding-bottom: 3px;
   margin-bottom: 10px;
-}
-/* line 182, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .second-banner .examples-heading {
-  font-weight: bold;
-  margin-bottom: 18px;
-}
-/* line 187, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .second-banner .examples-subheading {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-/* line 192, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .second-banner .example-item-container {
-  margin-bottom: 56px;
-}
-@media (max-width: 617px) {
-  /* line 192, partials/themes/matan-light/_homepage.scss */
-  .main-page #welcomePage .second-banner .example-item-container {
-    font-size: 11px;
-  }
-}
-/* line 198, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .second-banner .example-item-container .example-item {
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  padding-top: 23px;
-  display: inline-block;
-  margin-bottom: 20px;
-}
-/* line 206, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .second-banner .example-item-container .example-item img {
-  width: 50px;
-}
-/* line 211, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .second-banner .example-item-container .example-item-name {
-  font-weight: 300;
-  color: #2b5172;
 }
 
 /* line 9, partials/_base.scss */

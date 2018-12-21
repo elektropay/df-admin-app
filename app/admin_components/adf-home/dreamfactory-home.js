@@ -59,28 +59,28 @@ angular.module('dfHome', ['ngRoute', 'dfUtility', 'dfApplication', 'dfHelp'])
                 {
                     name: 'welcome-home',
                     label: 'Welcome',
-                    href: "//www.dreamfactory.com/in_product_v2/welcome.html",
+                    // href: "//www.dreamfactory.com/in_product_v2/welcome.html",
                     template: 'admin_components/adf-home/views/welcome.html',
                     attributes: []
                 },
                 {
                     name: 'quickstart-home',
                     label: 'Quickstart',
-                    href: "//www.dreamfactory.com/in_product_v2/quickstart.html",
+                    // href: "//www.dreamfactory.com/in_product_v2/quickstart.html",
                     template: 'admin_components/adf-home/views/quickstart.html',
                     attributes: []
                 },
                 {
                     name: 'resource-home',
                     label: 'Resources',
-                    href: "//www.dreamfactory.com/in_product_v2/resources.html",
+                    // href: "//www.dreamfactory.com/in_product_v2/resources.html",
                     template: 'admin_components/adf-home/views/resources.html',
                     attributes: []
                 },
                 {
                     name: 'download-home',
                     label: 'Download',
-                    href: "//www.dreamfactory.com/in_product_v2/downloads.html",
+                    // href: "//www.dreamfactory.com/in_product_v2/downloads.html",
                     template: 'admin_components/adf-home/views/download.html',
                     attributes: []
                 }
@@ -101,16 +101,3 @@ angular.module('dfHome', ['ngRoute', 'dfUtility', 'dfApplication', 'dfHelp'])
                 }
             });
         }])
-
-        // .directive('homeContent', function (MOD_HOME_ASSET_PATH) {
-        //     return {
-        //         restrict: 'E',
-        //         templateUrl: function(tElement, attrs) {
-        //             console.log(tElement)
-        //             console.log(attrs)
-        //             console.log(attrs.anotherParam)
-        //
-        //             return MOD_HOME_ASSET_PATH + 'views/welcome.html'
-        //         }
-        //     }
-        // });

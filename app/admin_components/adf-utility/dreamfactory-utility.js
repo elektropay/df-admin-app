@@ -241,7 +241,7 @@ angular.module('dfUtility', ['dfApplication'])
 
             scope: false,
 
-            template: '<i class="notify fa fa-fw fa-{{$parent.titleIcon}} df-menu-icon"></i>'
+            template: '<i class="pull-left notify fa fa-fw fa-{{$parent.titleIcon}} df-menu-icon"></i>'
         }
     }])
 
