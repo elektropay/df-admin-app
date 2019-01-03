@@ -203,4 +203,27 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
       }
     }
   }
+
+  #downloadPage {
+    h3 {
+      font-size: 16px;
+      color: #2e2ea3;
+      font-weight: bold;
+      margin-top: 32px;
+    }
+
+    h4 {
+      color: #1d3d56;
+      font-size: 16px;
+      font-weight: normal;
+      margin-bottom: 20px
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.75;
+      color: #1d3d56;
+      margin-bottom: 50px
+    }
+  }
 }

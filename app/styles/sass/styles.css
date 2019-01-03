@@ -9235,6 +9235,27 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   padding-bottom: 3px;
   margin-bottom: 10px;
 }
+/* line 208, partials/themes/matan-light/_homepage.scss */
+.main-page #downloadPage h3 {
+  font-size: 16px;
+  color: #2e2ea3;
+  font-weight: bold;
+  margin-top: 32px;
+}
+/* line 215, partials/themes/matan-light/_homepage.scss */
+.main-page #downloadPage h4 {
+  color: #1d3d56;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+/* line 222, partials/themes/matan-light/_homepage.scss */
+.main-page #downloadPage p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #1d3d56;
+  margin-bottom: 50px;
+}
 
 /* line 9, partials/_base.scss */
 html {
