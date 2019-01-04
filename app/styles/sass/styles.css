@@ -1722,7 +1722,7 @@ body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
+  color: #1d3d56;
   background-color: #ffffff;
 }
 
@@ -3752,7 +3752,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: inherit;
-  color: #555555;
+  color: #1d3d56;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -3811,7 +3811,7 @@ output {
   padding-top: 9px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
+  color: #1d3d56;
 }
 
 /* line 114, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -3822,7 +3822,7 @@ output {
   padding: 8px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
+  color: #1d3d56;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -4295,7 +4295,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #959595;
+  color: #3d81b5;
 }
 
 @media (min-width: 768px) {
@@ -4443,7 +4443,7 @@ select[multiple].input-lg,
 }
 /* line 32, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn:hover, .btn:focus, .btn.focus {
-  color: #555555;
+  color: #1d3d56;
   text-decoration: none;
 }
 /* line 39, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4469,31 +4469,31 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 /* line 68, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
-  color: #555555;
+  color: #1d3d56;
   background-color: #fff;
   border-color: rgba(0, 0, 0, 0.1);
 }
 /* line 11, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:focus, .btn-default.focus {
-  color: #555555;
+  color: #1d3d56;
   background-color: #e6e6e6;
   border-color: rgba(0, 0, 0, 0.1);
 }
 /* line 17, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:hover {
-  color: #555555;
+  color: #1d3d56;
   background-color: #e6e6e6;
   border-color: rgba(0, 0, 0, 0.1);
 }
 /* line 22, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-  color: #555555;
+  color: #1d3d56;
   background-color: #e6e6e6;
   border-color: rgba(0, 0, 0, 0.1);
 }
 /* line 29, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
-  color: #555555;
+  color: #1d3d56;
   background-color: #d4d4d4;
   border-color: rgba(0, 0, 0, 0.1);
 }
@@ -4509,7 +4509,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 /* line 53, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
   color: #fff;
-  background-color: #555555;
+  background-color: #1d3d56;
 }
 
 /* line 71, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
@@ -5322,7 +5322,7 @@ tbody.collapse.in {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: #555555;
+  color: #1d3d56;
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #ccc;
@@ -6649,7 +6649,7 @@ a.badge:hover, a.badge:focus {
 /* line 27, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss */
 .thumbnail .caption {
   padding: 9px;
-  color: #555555;
+  color: #1d3d56;
 }
 
 /* line 34, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss */
@@ -7467,7 +7467,7 @@ button.list-group-item-danger.active:focus {
 }
 /* line 6, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading {
-  color: #555555;
+  color: #1d3d56;
   background-color: #f5f5f5;
   border-color: #ddd;
 }
@@ -7478,7 +7478,7 @@ button.list-group-item-danger.active:focus {
 /* line 14, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading .badge {
   color: #f5f5f5;
-  background-color: #555555;
+  background-color: #1d3d56;
 }
 /* line 20, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
@@ -7643,8 +7643,8 @@ button.list-group-item-danger.active:focus {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
+  background-color: #F7F9FA;
+  border: 1px solid #F7F9FA;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -8851,11 +8851,11 @@ button.close {
 }
 /* line 73, partials/themes/matan-light/_bootswatch.scss */
 .btn-default:hover {
-  color: #555555;
+  color: #1d3d56;
 }
 /* line 77, partials/themes/matan-light/_bootswatch.scss */
 .btn-default .caret {
-  border-top-color: #555555;
+  border-top-color: #1d3d56;
 }
 
 /* line 82, partials/themes/matan-light/_bootswatch.scss */
@@ -8946,104 +8946,57 @@ button.close {
   background-color: #fff;
 }
 
-/* line 3, partials/themes/matan-light/_bootswatch_overrides.scss */
-.btn-primary:hover {
-  color: #FFF;
+/* line 3, partials/themes/matan-light/_base_override.scss */
+html body .df-section {
+  background-color: #F7F9FA;
 }
-
-/* line 8, partials/themes/matan-light/_bootswatch_overrides.scss */
-.navbar-default {
-  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.07);
+/* line 7, partials/themes/matan-light/_base_override.scss */
+html body .df-section-header {
+  text-align: left;
+  background: #F7F9FA;
+  padding: 0px;
+  margin-top: 27px;
+  margin-bottom: 15px;
 }
-
-/* line 13, partials/themes/matan-light/_bootswatch_overrides.scss */
-.navbar-fixed-top .navbar-brand {
-  margin-left: 0px !important;
-  padding-left: 0px !important;
+/* line 16, partials/themes/matan-light/_base_override.scss */
+html body .df-section-header h4 {
+  color: #2e2ea3;
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
 }
-/* line 18, partials/themes/matan-light/_bootswatch_overrides.scss */
-.navbar-fixed-top .navbar-right {
-  margin-right: 0px !important;
+/* line 25, partials/themes/matan-light/_base_override.scss */
+html body .df-section-toolbar .well {
+  padding: 0px;
+  min-height: auto;
+  float: right;
+  margin-bottom: 27px;
 }
-
-/* line 24, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu {
-  margin: 0px auto !important;
+/* line 31, partials/themes/matan-light/_base_override.scss */
+html body .df-section-toolbar .well * {
+  font-size: 14px;
 }
-/* line 30, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container.second-nav-menu-items {
+/* line 35, partials/themes/matan-light/_base_override.scss */
+html body .df-section-toolbar .well > * {
+  float: right !important;
+  clear: both;
+}
+/* line 40, partials/themes/matan-light/_base_override.scss */
+html body .df-section-toolbar .well .btn-group {
+  float: left !important;
+}
+/* line 45, partials/themes/matan-light/_base_override.scss */
+html body .df-section-toolbar .well .df-download-sdk button {
+  padding-left: 0px;
+}
+/* line 50, partials/themes/matan-light/_base_override.scss */
+html body .df-section-toolbar .well .left-arrow, html body .df-section-toolbar .well .right-arrow {
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 35, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .df-menu-icon {
-  vertical-align: middle;
-  color: #2e2ea3;
-  padding: 10px 15px 10px 0px;
-  margin: 10px auto;
-}
-/* line 43, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .nav-pills > li:first-child {
-  padding-left: 13px;
-  padding-right: 13px;
-}
-/* line 51, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .nav-pills > li a {
-  color: #7490a9;
-  margin: 10px auto;
-}
-/* line 57, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .nav-pills > li.active {
-  background-color: rgba(236, 239, 242, 0.3);
-}
-/* line 62, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .nav-pills > li.active > a, .df-menu .df-menu-container .nav-pills > li.active > a:hover, .df-menu .df-menu-container .nav-pills > li.active > a:focus {
-  font-weight: bold;
-  color: #5b5bd9;
-  background-color: transparent;
-}
-/* line 72, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .nav-pills > li.active:after {
-  position: absolute;
-  height: 3px;
-  margin: 0 auto;
-  content: '';
-  left: 0;
-  right: 0;
-  width: 90%;
-  color: #000;
-  background-color: #5b5bd9;
-  left: 0;
-  bottom: 14px;
-  width: 16px;
-  opacity: 0.3;
-  border-radius: 3px;
-  border: 1px solid #5b5bd9;
-  border-radius: 10px;
-}
-
-/* line 99, partials/themes/matan-light/_bootswatch_overrides.scss */
-body .df-sidebar-nav .nav-pills li > a {
-  padding-left: 0px;
-}
-/* line 103, partials/themes/matan-light/_bootswatch_overrides.scss */
-body .df-sidebar-nav .nav-pills li > a:hover {
-  background: transparent;
-  color: #1d3d56;
-  font-weight: bold;
-}
-/* line 110, partials/themes/matan-light/_bootswatch_overrides.scss */
-body .df-sidebar-nav .nav-pills li.active a {
-  font-weight: bold;
-}
-/* line 114, partials/themes/matan-light/_bootswatch_overrides.scss */
-body .df-sidebar-nav .nav-pills li.active:hover a {
-  color: #5b5bd9;
-}
-
-/* line 124, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-section {
-  background-color: rgba(236, 239, 242, 0.4);
+/* line 54, partials/themes/matan-light/_base_override.scss */
+html body .df-section-toolbar .well .left-arrow i, html body .df-section-toolbar .well .right-arrow i {
+  width: auto;
 }
 
 /* line 7, partials/themes/matan-light/_homepage.scss */
@@ -9134,27 +9087,26 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
 /* line 94, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .first-banner .first-banner-container > div {
   display: inline-block;
-  color: #1d3d56;
   padding-top: 10px;
   padding-bottom: 20px;
 }
-/* line 100, partials/themes/matan-light/_homepage.scss */
+/* line 99, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .first-banner .first-banner-container > div h4 {
   font-weight: bold;
   color: #2e2ea3;
   font-size: 14px;
 }
-/* line 105, partials/themes/matan-light/_homepage.scss */
+/* line 104, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .first-banner .first-banner-container > div h4 i.fa {
   color: #faa20c;
 }
-/* line 113, partials/themes/matan-light/_homepage.scss */
+/* line 112, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 30px;
 }
-/* line 119, partials/themes/matan-light/_homepage.scss */
+/* line 118, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .second-banner-container {
   padding-right: 0px;
   padding-left: 0px;
@@ -9162,10 +9114,9 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   font-stretch: normal;
   line-height: 1.75;
   letter-spacing: normal;
-  color: #1d3d56;
   font-size: 16px;
 }
-/* line 131, partials/themes/matan-light/_homepage.scss */
+/* line 129, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .second-banner-container h3 {
   margin-top: 0px;
   color: #2e2ea3;
@@ -9173,17 +9124,17 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   font-weight: bold;
   margin-bottom: 0px;
 }
-/* line 140, partials/themes/matan-light/_homepage.scss */
+/* line 138, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview {
   width: 80%;
   display: block;
   position: relative;
 }
-/* line 145, partials/themes/matan-light/_homepage.scss */
+/* line 143, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview img {
   width: 100%;
 }
-/* line 149, partials/themes/matan-light/_homepage.scss */
+/* line 147, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay {
   width: 100%;
   height: 60%;
@@ -9192,12 +9143,12 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   left: 0;
   z-index: 20;
 }
-/* line 158, partials/themes/matan-light/_homepage.scss */
+/* line 156, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.blured {
   opacity: 0.8;
   background-color: #ffffff;
 }
-/* line 163, partials/themes/matan-light/_homepage.scss */
+/* line 161, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.circle {
   width: calc(2vw + 30px);
   height: calc(2vw + 30px);
@@ -9208,25 +9159,25 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   border: 1px #5b5bd9 solid;
   text-align: center;
 }
-/* line 173, partials/themes/matan-light/_homepage.scss */
+/* line 171, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.circle .fa-play {
   vertical-align: middle;
   font-size: calc(1vw + 10px);
   margin-left: 9%;
   color: #5b5bd9;
 }
-/* line 181, partials/themes/matan-light/_homepage.scss */
+/* line 179, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.text {
   text-align: center;
   font-size: 14px;
 }
-/* line 185, partials/themes/matan-light/_homepage.scss */
+/* line 183, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .df-mac-preview .df-mac-preview-overlay.text > div {
   display: block;
   margin-top: calc(30% + (1vw / 3) + 3px);
   color: #0a0a75;
 }
-/* line 194, partials/themes/matan-light/_homepage.scss */
+/* line 192, partials/themes/matan-light/_homepage.scss */
 .main-page #welcomePage .second-banner .resource-link {
   display: inline-block;
   padding-right: 15px;
@@ -9235,26 +9186,132 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   padding-bottom: 3px;
   margin-bottom: 10px;
 }
-/* line 208, partials/themes/matan-light/_homepage.scss */
+/* line 206, partials/themes/matan-light/_homepage.scss */
 .main-page #downloadPage h3 {
   font-size: 16px;
   color: #2e2ea3;
   font-weight: bold;
   margin-top: 32px;
 }
-/* line 215, partials/themes/matan-light/_homepage.scss */
+/* line 213, partials/themes/matan-light/_homepage.scss */
 .main-page #downloadPage h4 {
-  color: #1d3d56;
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 20px;
 }
-/* line 222, partials/themes/matan-light/_homepage.scss */
+/* line 219, partials/themes/matan-light/_homepage.scss */
 .main-page #downloadPage p {
   font-size: 16px;
   line-height: 1.75;
-  color: #1d3d56;
   margin-bottom: 50px;
+}
+
+/* line 6, partials/themes/matan-light/_bootswatch_overrides.scss */
+.btn-primary:hover {
+  color: #FFF;
+}
+
+/* line 11, partials/themes/matan-light/_bootswatch_overrides.scss */
+.navbar-default {
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.07);
+}
+
+/* line 16, partials/themes/matan-light/_bootswatch_overrides.scss */
+.navbar-fixed-top .navbar-brand {
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}
+/* line 21, partials/themes/matan-light/_bootswatch_overrides.scss */
+.navbar-fixed-top .navbar-right {
+  margin-right: 0px !important;
+}
+
+/* line 27, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu {
+  margin: 0px auto !important;
+}
+/* line 33, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container.second-nav-menu-items {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 38, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .df-menu-icon {
+  vertical-align: middle;
+  color: #2e2ea3;
+  padding: 10px 15px 10px 0px;
+  margin: 10px auto;
+}
+/* line 46, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .nav-pills > li:first-child {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+/* line 54, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .nav-pills > li a {
+  color: #7490a9;
+  margin: 10px auto;
+}
+/* line 60, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .nav-pills > li.active {
+  background-color: rgba(236, 239, 242, 0.3);
+}
+/* line 65, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .nav-pills > li.active > a, .df-menu .df-menu-container .nav-pills > li.active > a:hover, .df-menu .df-menu-container .nav-pills > li.active > a:focus {
+  font-weight: bold;
+  color: #5b5bd9;
+  background-color: transparent;
+}
+/* line 75, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .nav-pills > li.active:after {
+  position: absolute;
+  height: 3px;
+  margin: 0 auto;
+  content: '';
+  left: 0;
+  right: 0;
+  width: 90%;
+  color: #000;
+  background-color: #5b5bd9;
+  left: 0;
+  bottom: 14px;
+  width: 16px;
+  opacity: 0.3;
+  border-radius: 3px;
+  border: 1px solid #5b5bd9;
+  border-radius: 10px;
+}
+
+/* line 102, partials/themes/matan-light/_bootswatch_overrides.scss */
+body .df-sidebar-nav .nav-pills li > a {
+  padding-left: 0px;
+}
+/* line 106, partials/themes/matan-light/_bootswatch_overrides.scss */
+body .df-sidebar-nav .nav-pills li > a:hover {
+  background: transparent;
+  color: #1d3d56;
+  font-weight: bold;
+}
+/* line 113, partials/themes/matan-light/_bootswatch_overrides.scss */
+body .df-sidebar-nav .nav-pills li.active a {
+  font-weight: bold;
+}
+/* line 117, partials/themes/matan-light/_bootswatch_overrides.scss */
+body .df-sidebar-nav .nav-pills li.active:hover a {
+  color: #5b5bd9;
+}
+
+/* line 125, partials/themes/matan-light/_bootswatch_overrides.scss */
+.well {
+  box-shadow: none;
+}
+
+/* line 129, partials/themes/matan-light/_bootswatch_overrides.scss */
+.btn-default {
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent;
+  opacity: 1 !important;
 }
 
 /* line 9, partials/_base.scss */
@@ -9873,7 +9930,7 @@ body {
   z-index: 10001;
 }
 
-/* line 41, styles.scss */
+/* line 39, styles.scss */
 [data-ng-click] {
   cursor: pointer;
 }

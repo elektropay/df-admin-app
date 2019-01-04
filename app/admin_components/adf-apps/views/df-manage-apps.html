@@ -6,12 +6,14 @@
 
         <!-- Toolbar -->
         <df-section-toolbar>
-            <df-toolbar-paginate data-api="'app'" ></df-toolbar-paginate>
-            <div class="btn-group btn-group-sm hidden-xs df-btn-group">
-                <button class="btn btn-default" data-ng-click="deleteSelectedApps()" data-ng-disabled="selectedApps.length === 0" title="Delete selected apps"><i class="fa fa-fw fa-trash"></i></button>
+            <div>
+                <df-toolbar-paginate data-api="'app'" ></df-toolbar-paginate>
+                <div class="btn-group btn-group-sm hidden-xs df-btn-group">
+                    <button class="btn btn-default" data-ng-click="deleteSelectedApps()" data-ng-disabled="selectedApps.length === 0" title="Delete selected apps"><i class="fa fa-fw fa-trash"></i></button>
+                </div>
+                <df-download-sdk data-btn-size="'btn-group-sm'"></df-download-sdk>
+                <div style="clear: both"></div>
             </div>
-            <df-download-sdk data-btn-size="'btn-group-sm'"></df-download-sdk>
-            <div style="clear: both"></div>
         </df-section-toolbar>
 
         <div data-ng-show="apps.length === 0 && emptySectionOptions.active">

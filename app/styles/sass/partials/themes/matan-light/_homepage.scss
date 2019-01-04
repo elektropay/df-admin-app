@@ -93,7 +93,6 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
 
         & > div {
           display: inline-block;
-          color: #1d3d56;
           padding-top: 10px;
           padding-bottom: 20px;
 
@@ -125,7 +124,6 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
         font-stretch: normal;
         line-height: 1.75;
         letter-spacing: normal;
-        color: #1d3d56;
         font-size: 16px;
 
         h3 {
@@ -213,7 +211,6 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
     }
 
     h4 {
-      color: #1d3d56;
       font-size: 16px;
       font-weight: normal;
       margin-bottom: 20px
@@ -222,7 +219,6 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
     p {
       font-size: 16px;
       line-height: 1.75;
-      color: #1d3d56;
       margin-bottom: 50px
     }
   }

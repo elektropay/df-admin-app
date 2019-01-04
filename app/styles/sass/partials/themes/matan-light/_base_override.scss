@@ -1,0 +1,62 @@
+html {
+  body {
+    .df-section {
+      background-color: $df-section-background;
+    }
+
+    .df-section-header {
+
+      text-align: left;
+
+      background: $df-section-background;
+      padding: 0px;
+      margin-top: 27px;
+      margin-bottom: 15px;
+
+      h4 {
+        color: $df-headers-color;
+        margin: 0;
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
+
+    .df-section-toolbar {
+      .well {
+        padding: 0px;
+        min-height: auto;
+        float: right;
+        margin-bottom: 27px;
+
+        * {
+          font-size: 14px;
+        }
+
+        > * {
+          float: right!important;
+          clear: both;
+        }
+
+        .btn-group {
+          float: left!important;
+        }
+
+        .df-download-sdk {
+          button {
+            padding-left: 0px;
+          }
+        }
+
+        .left-arrow, .right-arrow {
+          padding-left: 0px;
+          padding-right: 0px;
+
+          i {
+            width: auto;
+          }
+        }
+
+      }
+    }
+  }
+}

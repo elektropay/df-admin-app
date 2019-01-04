@@ -1,3 +1,6 @@
+@import "base_override";
+@import "homepage.scss";
+
 .btn-primary {
 
   &:hover {
@@ -117,10 +120,15 @@ body .df-sidebar-nav {
       }
     }
   }
-
-
 }
 
-.df-section {
-  background-color: rgba(236, 239, 242, 0.4);
+.well {
+  box-shadow: none;
+}
+
+.btn-default {
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent;
+  opacity: 1!important;
 }
