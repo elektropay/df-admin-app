@@ -8,6 +8,13 @@
   }
 }
 
+.navbar {
+  .navbar-nav > li > a,
+  &-brand {
+    text-shadow: none;
+  }
+}
+
 .navbar-default {
   box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.07);
 }
@@ -58,7 +65,7 @@
 
         &.active {
           & {
-            background-color: rgba(236, 239, 242, 0.3);
+            background-color: #f7f9fa;
           }
 
           & > a {
