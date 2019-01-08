@@ -9186,20 +9186,13 @@ html body .df-section-toolbar .well .left-arrow i, html body .df-section-toolbar
   padding-bottom: 3px;
   margin-bottom: 10px;
 }
-/* line 206, partials/themes/matan-light/_homepage.scss */
-.main-page #downloadPage h3 {
-  font-size: 16px;
-  color: #2e2ea3;
-  font-weight: bold;
-  margin-top: 32px;
-}
-/* line 213, partials/themes/matan-light/_homepage.scss */
+/* line 207, partials/themes/matan-light/_homepage.scss */
 .main-page #downloadPage h4 {
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 20px;
 }
-/* line 219, partials/themes/matan-light/_homepage.scss */
+/* line 213, partials/themes/matan-light/_homepage.scss */
 .main-page #downloadPage p {
   font-size: 16px;
   line-height: 1.75;
