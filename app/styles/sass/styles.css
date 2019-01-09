@@ -3499,12 +3499,12 @@ th {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid transparent;
 }
 /* line 41, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid transparent;
 }
 /* line 50, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table > caption + thead > tr:first-child > th,
@@ -3517,7 +3517,7 @@ th {
 }
 /* line 57, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table > tbody + tbody {
-  border-top: 2px solid #ddd;
+  border-top: 2px solid transparent;
 }
 /* line 62, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table .table {
@@ -3536,7 +3536,7 @@ th {
 
 /* line 88, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table-bordered {
-  border: 1px solid #ddd;
+  border: 1px solid transparent;
 }
 /* line 94, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table-bordered > thead > tr > th,
@@ -3545,7 +3545,7 @@ th {
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > th,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #ddd;
+  border: 1px solid transparent;
 }
 /* line 101, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table-bordered > thead > tr > th,
@@ -3690,7 +3690,7 @@ table th[class*="col-"] {
     margin-bottom: 15px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #ddd;
+    border: 1px solid transparent;
   }
   /* line 183, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
   .table-responsive > .table {
@@ -7173,7 +7173,7 @@ button.list-group-item-danger.active:focus {
   margin-bottom: 20px;
   background-color: #fff;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 5px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -7196,8 +7196,8 @@ button.list-group-item-danger.active:focus {
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
 }
 /* line 27, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-heading > .dropdown .dropdown-toggle {
@@ -7225,8 +7225,8 @@ button.list-group-item-danger.active:focus {
   padding: 10px 15px;
   background-color: #f5f5f5;
   border-top: 1px solid #ddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 /* line 63, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
@@ -7244,15 +7244,15 @@ button.list-group-item-danger.active:focus {
 .panel > .list-group:first-child .list-group-item:first-child,
 .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
   border-top: 0;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
 }
 /* line 82, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .list-group:last-child .list-group-item:last-child,
 .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
   border-bottom: 0;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 /* line 89, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .panel-heading + .panel-collapse > .list-group .list-group-item:first-child {
@@ -7286,16 +7286,16 @@ button.list-group-item-danger.active:focus {
 /* line 121, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child,
 .panel > .table-responsive:first-child > .table:first-child {
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
 }
 /* line 127, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child,
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 /* line 131, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
@@ -7306,7 +7306,7 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
-  border-top-left-radius: 3px;
+  border-top-left-radius: 4px;
 }
 /* line 135, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
@@ -7317,21 +7317,21 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
-  border-top-right-radius: 3px;
+  border-top-right-radius: 4px;
 }
 /* line 143, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child,
 .panel > .table-responsive:last-child > .table:last-child {
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 /* line 149, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 /* line 153, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
@@ -7342,7 +7342,7 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
-  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 4px;
 }
 /* line 157, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
@@ -7353,14 +7353,14 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
-  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 4px;
 }
 /* line 164, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .panel-body + .table,
 .panel > .panel-body + .table-responsive,
 .panel > .table + .panel-body,
 .panel > .table-responsive + .panel-body {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid transparent;
 }
 /* line 170, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table > tbody:first-child > tr:first-child th,
@@ -7437,7 +7437,7 @@ button.list-group-item-danger.active:focus {
 /* line 226, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel {
   margin-bottom: 0;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 /* line 230, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel + .panel {
@@ -9333,6 +9333,61 @@ body .df-sidebar-nav .nav-pills li.active:hover a {
   background-color: transparent;
   border-color: transparent;
   opacity: 1 !important;
+}
+
+/* line 150, partials/themes/matan-light/_bootswatch_overrides.scss */
+div.panel .table > thead, div.panel .table > thead tr, table.table > thead, table.table > thead tr, table.table.table-striped > thead, table.table.table-striped > thead tr {
+  background-color: #1d3d56;
+  color: #ffffff;
+  height: 38px;
+}
+/* line 155, partials/themes/matan-light/_bootswatch_overrides.scss */
+div.panel .table > thead th, div.panel .table > thead tr th, table.table > thead th, table.table > thead tr th, table.table.table-striped > thead th, table.table.table-striped > thead tr th {
+  vertical-align: middle;
+}
+/* line 160, partials/themes/matan-light/_bootswatch_overrides.scss */
+div.panel .table > tbody > tr, table.table > tbody > tr, table.table.table-striped > tbody > tr {
+  border-radius: 4px;
+}
+/* line 166, partials/themes/matan-light/_bootswatch_overrides.scss */
+div.panel .table > tbody > tr td, table.table > tbody > tr td, table.table.table-striped > tbody > tr td {
+  padding: 0px;
+  border: 0px;
+  background-color: #F7F9FA;
+  color: #2b5172;
+}
+/* line 172, partials/themes/matan-light/_bootswatch_overrides.scss */
+div.panel .table > tbody > tr td .cell-content, table.table > tbody > tr td .cell-content, table.table.table-striped > tbody > tr td .cell-content {
+  margin-top: 5px;
+  padding-top: 8px;
+  min-height: 58px;
+  background-color: #ffffff;
+  display: table;
+  line-height: 14px;
+  word-wrap: break-word;
+  width: 100%;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 183, partials/themes/matan-light/_bootswatch_overrides.scss */
+div.panel .table > tbody > tr td .cell-content *, table.table > tbody > tr td .cell-content *, table.table.table-striped > tbody > tr td .cell-content * {
+  margin-top: 0px;
+  padding-top: 0px;
+  vertical-align: top;
+}
+/* line 189, partials/themes/matan-light/_bootswatch_overrides.scss */
+div.panel .table > tbody > tr td .cell-content > *, table.table > tbody > tr td .cell-content > *, table.table.table-striped > tbody > tr td .cell-content > * {
+  display: table-cell;
+  vertical-align: top;
+  padding-top: 16px;
+}
+/* line 195, partials/themes/matan-light/_bootswatch_overrides.scss */
+div.panel .table > tbody > tr td .cell-content > *:first-child, table.table > tbody > tr td .cell-content > *:first-child, table.table.table-striped > tbody > tr td .cell-content > *:first-child {
+  padding-left: 13px;
+}
+
+/* line 203, partials/themes/matan-light/_bootswatch_overrides.scss */
+.panel {
+  border: none;
 }
 
 /* line 9, partials/_base.scss */
