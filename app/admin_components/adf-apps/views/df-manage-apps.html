@@ -55,18 +55,30 @@
                                     </div>
                                 </td>
                                 <td id="apps_table_row_{{$index}}_{{obj.record.id}}" data-ng-click="editApp(obj.record)" data-ng-repeat="value in obj.record | orderAndShowValue : fields track by $index">
-                                    <div class="cell-content">
-                                        <span ng-if="fields[$index].name === 'api_key'" style="white-space:nowrap;">
-                                        <span id="apps_table_row_{{$index}}_{{obj.record.id}}_api_key">{{value}}</span>
-                                        &nbsp;
-                                        <i class="fa fa-clipboard" ngclipboard data-clipboard-target="#apps_table_row_{{$index}}_{{obj.record.id}}_api_key" data-ng-click="$event.stopPropagation()" title="Copy to clipboard"></i>
-                                    </span>
-                                        <span ng-if="fields[$index].name === 'role_by_role_id'">
-                                        {{value.name}}
-                                    </span>
-                                        <span ng-if="fields[$index].name !== 'api_key' && fields[$index].name != 'role_by_role_id'">
-                                        {{value}}
-                                    </span>
+                                    <div class="cell-content" ng-switch="fields[$index].name">
+
+                                        <span ng-switch-when="api_key" style="white-space:nowrap;">
+                                            <span id="apps_table_row_{{$index}}_{{obj.record.id}}_api_key">{{value}}</span>
+                                            &nbsp;
+                                            <i class="fa fa-clipboard" ngclipboard data-clipboard-target="#apps_table_row_{{$index}}_{{obj.record.id}}_api_key" data-ng-click="$event.stopPropagation()" title="Copy to clipboard"></i>
+                                        </span>
+
+                                        <span ng-switch-when="role_by_role_id">
+                                            {{value.name}}
+                                        </span>
+
+                                        <span ng-switch-when="is_active">
+                                            <span ng-if="value == true">
+                                                <i class="fa fa-check"></i>
+                                            </span>
+                                            <span ng-if="value == false">
+                                                <i class="fa fa-times"></i>
+                                            </span>
+                                        </span>
+
+                                        <span ng-switch-default>
+                                            {{value}}
+                                        </span>
                                     </div>
                                 </td>
                             </tr>

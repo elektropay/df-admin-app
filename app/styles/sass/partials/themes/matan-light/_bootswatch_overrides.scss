@@ -154,6 +154,7 @@ div.panel .table, table.table, table.table.table-striped {
 
       & > * {
         padding-bottom: 3px;
+        padding-left: 5px;
       }
     }
   }
@@ -202,12 +203,20 @@ div.panel .table, table.table, table.table.table-striped {
           & > * {
             display: table-cell;
             vertical-align: top;
-            padding-top: 16px;
+            padding-top: 8px;
             padding-bottom: 16px;
           }
 
           & > *:first-child {
             padding-left: 13px;
+          }
+
+          .fa-check {
+            color: #22bca8;
+          }
+
+          .fa-times {
+            color: #f2526a;
           }
         }
       }
