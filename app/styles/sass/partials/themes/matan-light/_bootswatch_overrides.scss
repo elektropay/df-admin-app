@@ -140,12 +140,9 @@ body .df-sidebar-nav {
   opacity: 1!important;
 }
 
-div.panel .table, table.table, table.table.table-striped {
-  //border-radius: 4px!important;
+$table-rows-radius: 4px;
 
-  //thead, tbody, tr, th, td {
-  //  padding: 0px!important;
-  //}
+div.panel .table, table.table, table.table.table-striped {
 
   & > thead, & > thead tr {
     background-color: #1d3d56;
@@ -154,46 +151,64 @@ div.panel .table, table.table, table.table.table-striped {
 
     th {
       vertical-align: middle;
+
+      & > * {
+        padding-bottom: 3px;
+      }
     }
   }
 
-  & > tbody > tr {
+  & > tbody {
+    & > tr {
 
-    //height: 40px;
-    //border-bottom: 40px solid #F7F9FA;
-    border-radius: 4px;
+      & > td:first-child > .cell-content {
+        border-top-left-radius: $table-rows-radius;
+        border-bottom-left-radius: $table-rows-radius;
 
-    td {
-      padding: 0px;
-      border: 0px;
-      background-color: #F7F9FA;
-      color: #2b5172;
+      }
 
-      .cell-content {
-        margin-top: 5px;
-        padding-top: 8px;
-        min-height: 58px;
-        background-color: #ffffff;
-        display: table;
-        line-height: 14px;
-        word-wrap: break-word;
-        width: 100%;
-        box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+      & > td:last-child > .cell-content {
+        border-top-right-radius: $table-rows-radius;
+        border-bottom-right-radius: $table-rows-radius;
+      }
 
-        * {
-          margin-top: 0px;
-          padding-top: 0px;
-          vertical-align: top;
-        }
+      td {
+        padding: 0px;
+        border: 0px;
+        background-color: #F7F9FA;
+        color: #2b5172;
+        height: 58px;
+        min-width: 80px;
 
-        & > * {
-          display: table-cell;
-          vertical-align: top;
-          padding-top: 16px;
-        }
+        .cell-content {
+          margin-top: 3px;
+          margin-bottom: 3px;
+          padding-top: 8px;
+          min-height: 58px;
+          background-color: #ffffff;
+          display: block;
+          line-height: 14px;
+          word-wrap: break-word;
+          width: 100%;
+          height: 92%;
+          box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
 
-        & > *:first-child {
-          padding-left: 13px;
+          * {
+            margin-top: 0px;
+            padding-top: 0px;
+            vertical-align: top;
+          }
+
+          & > * {
+            display: table-cell;
+            vertical-align: top;
+            padding-top: 16px;
+            padding-bottom: 16px;
+          }
+
+          & > *:first-child {
+            padding-left: 13px;
+          }
         }
       }
     }
@@ -202,4 +217,5 @@ div.panel .table, table.table, table.table.table-striped {
 
 .panel {
   border: none;
+  box-shadow: none;
 }
