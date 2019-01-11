@@ -8982,11 +8982,6 @@ html body .df-section-toolbar .well {
 html body .df-section-toolbar .well * {
   font-size: 14px;
 }
-/* line 41, partials/themes/matan-light/_base_override.scss */
-html body .df-section-toolbar .well > * {
-  float: right !important;
-  clear: both;
-}
 /* line 46, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well .btn-group {
   float: left !important;

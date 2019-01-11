@@ -28,18 +28,18 @@
 
                         <table class="table table-responsive table-bordered table-striped table-hover table-condensed">
                             <thead>
-                            <th></th>
+                                <th></th>
 
-                            <th data-ng-class="order.orderBy === field.name ? 'df-th-selected' : ''"
-                                data-ng-click="orderOnSelect(field)"
-                                data-ng-repeat="field in fields">
+                                <th data-ng-class="order.orderBy === field.name ? 'df-th-selected' : ''"
+                                    data-ng-click="orderOnSelect(field)"
+                                    data-ng-repeat="field in fields">
 
-                                <span class="df-th-text" style="white-space: nowrap" >{{field.label}}
-                                    <i style="margin-left: 5px;" data-ng-if="order.orderBy === field.name"
-                                       class="fa"
-                                       data-ng-class="order.orderBy === field.name && order.orderByReverse ? 'fa-caret-down' : 'fa-caret-up'"></i>
-                                </span>
-                            </th>
+                                    <span class="df-th-text" style="white-space: nowrap" >{{field.label}}
+                                        <i style="margin-left: 5px;" data-ng-if="order.orderBy === field.name"
+                                           class="fa"
+                                           data-ng-class="order.orderBy === field.name && order.orderByReverse ? 'fa-caret-down' : 'fa-caret-up'"></i>
+                                    </span>
+                                </th>
                             </thead>
                             <tbody>
                             <tr data-ng-repeat="obj in apps | orderObjectBy:order.orderBy:order.orderByReverse" class="repeated-item" data-ng-class="obj.__dfUI.selected ? 'danger' : ''">
