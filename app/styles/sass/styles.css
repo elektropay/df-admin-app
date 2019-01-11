@@ -8952,7 +8952,7 @@ html body .df-section {
   padding-left: 30px;
 }
 /* line 7, partials/themes/matan-light/_base_override.scss */
-html body .df-section a {
+html body .df-section a.hiperlinkable {
   color: #119add;
   text-decoration: underline;
 }
