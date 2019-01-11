@@ -35,6 +35,10 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
     }
     margin-bottom: 56px;
 
+    a {
+      text-decoration: none;
+    }
+
     .example-item {
       width: 100px;
       height: 100px;
@@ -216,6 +220,11 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
         padding-bottom: 3px;
 
         margin-bottom: 10px;
+
+        a {
+          color: $text-color;
+          text-decoration: none;
+        }
 
         &:hover, & a:hover {
           text-decoration: none;
