@@ -229,3 +229,8 @@ div.panel .table, table.table, table.table.table-striped {
   border: none;
   box-shadow: none;
 }
+
+.row-no-padding > [class*="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

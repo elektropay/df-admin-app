@@ -8951,7 +8951,12 @@ html body .df-section {
   background-color: #F7F9FA;
   padding-left: 30px;
 }
-/* line 8, partials/themes/matan-light/_base_override.scss */
+/* line 7, partials/themes/matan-light/_base_override.scss */
+html body .df-section a {
+  color: #119add;
+  text-decoration: underline;
+}
+/* line 13, partials/themes/matan-light/_base_override.scss */
 html body .df-section-header {
   text-align: left;
   background: #F7F9FA;
@@ -8959,43 +8964,43 @@ html body .df-section-header {
   margin-top: 27px;
   margin-bottom: 15px;
 }
-/* line 17, partials/themes/matan-light/_base_override.scss */
+/* line 22, partials/themes/matan-light/_base_override.scss */
 html body .df-section-header h4 {
   color: #2e2ea3;
   margin: 0;
   font-weight: bold;
   font-size: 16px;
 }
-/* line 26, partials/themes/matan-light/_base_override.scss */
+/* line 31, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well {
   padding: 0px;
   min-height: auto;
   float: right;
   margin-bottom: 27px;
 }
-/* line 32, partials/themes/matan-light/_base_override.scss */
+/* line 37, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well * {
   font-size: 14px;
 }
-/* line 36, partials/themes/matan-light/_base_override.scss */
+/* line 41, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well > * {
   float: right !important;
   clear: both;
 }
-/* line 41, partials/themes/matan-light/_base_override.scss */
+/* line 46, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well .btn-group {
   float: left !important;
 }
-/* line 46, partials/themes/matan-light/_base_override.scss */
+/* line 51, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well .df-download-sdk button {
   padding-left: 0px;
 }
-/* line 51, partials/themes/matan-light/_base_override.scss */
+/* line 56, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well .left-arrow, html body .df-section-toolbar .well .right-arrow {
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 55, partials/themes/matan-light/_base_override.scss */
+/* line 60, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well .left-arrow i, html body .df-section-toolbar .well .right-arrow i {
   width: auto;
 }
@@ -9243,23 +9248,18 @@ html body div.checkbox, html body div.radio {
 html body i.fa-info-circle {
   color: #7490a9;
 }
-/* line 24, partials/themes/matan-light/_forms.scss */
-html body .form-group .form-controls {
-  display: inline-block;
-  float: right;
-}
-/* line 28, partials/themes/matan-light/_forms.scss */
+/* line 26, partials/themes/matan-light/_forms.scss */
 html body .form-group .form-controls .btn {
   min-width: 80px;
   font-size: 12px;
 }
-/* line 33, partials/themes/matan-light/_forms.scss */
+/* line 31, partials/themes/matan-light/_forms.scss */
 html body .form-group .form-controls .btn-default {
   border: 1px solid #8D9CA8;
   border-radius: 4px;
   height: 35px;
 }
-/* line 39, partials/themes/matan-light/_forms.scss */
+/* line 37, partials/themes/matan-light/_forms.scss */
 html body .form-group .form-controls .btn-primary, html body .form-group .form-controls .form-group .btn-primary .btn-primary:hover, html body .form-group .form-controls .btn-default.btn-primary:hover {
   height: 35px;
   border-radius: 4px;
@@ -9459,6 +9459,12 @@ div.panel .table > tbody > tr td .cell-content .fa-times, table.table > tbody > 
 .panel {
   border: none;
   box-shadow: none;
+}
+
+/* line 233, partials/themes/matan-light/_bootswatch_overrides.scss */
+.row-no-padding > [class*="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 /* line 9, partials/_base.scss */

@@ -3,6 +3,11 @@ html {
     .df-section {
       background-color: $df-section-background;
       padding-left: 30px;
+
+      a {
+        color: #119add;
+        text-decoration: underline;
+      }
     }
 
     .df-section-header {
