@@ -9349,106 +9349,51 @@ html body .form-controls .btn-dark {
   font-weight: 900;
 }
 
-/* line 9, partials/themes/matan-light/_bootswatch_overrides.scss */
-.btn-primary:hover {
-  color: #FFF;
+/* line 6, partials/themes/matan-light/_tables_override.scss */
+.table-rows-extendable thead tr th:last-child {
+  background-color: #F7F9FA;
+  border: none;
+}
+/* line 10, partials/themes/matan-light/_tables_override.scss */
+.table-rows-extendable thead tr th:last-child .btn {
+  width: 53px;
+  min-width: 53px;
 }
 
-/* line 15, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu {
-  margin: 0px auto !important;
+/* line 19, partials/themes/matan-light/_tables_override.scss */
+div.panel .table, table.table, table.table.table-striped {
+  background-color: #F7F9FA;
 }
-/* line 21, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container.second-nav-menu-items {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-/* line 26, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .df-menu-icon {
-  vertical-align: middle;
-  color: #2e2ea3;
-  padding: 10px 15px 10px 0px;
-  margin: 10px auto;
-}
-/* line 34, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .nav-pills > li:first-child {
-  padding-left: 13px;
-  padding-right: 13px;
-}
-/* line 42, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .nav-pills > li a {
-  color: #7490a9;
-  margin: 10px auto;
-}
-/* line 48, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .nav-pills > li.active {
-  background-color: #f7f9fa;
-}
-/* line 53, partials/themes/matan-light/_bootswatch_overrides.scss */
-.df-menu .df-menu-container .nav-pills > li.active > a, .df-menu .df-menu-container .nav-pills > li.active > a:hover, .df-menu .df-menu-container .nav-pills > li.active > a:focus {
-  font-weight: bold;
-  color: #5b5bd9;
-  background-color: transparent;
-}
-
-/* line 75, partials/themes/matan-light/_bootswatch_overrides.scss */
-body .df-sidebar-nav .nav-pills li > a {
-  padding-left: 0px;
-}
-/* line 79, partials/themes/matan-light/_bootswatch_overrides.scss */
-body .df-sidebar-nav .nav-pills li > a:hover {
-  background: transparent;
-  color: #1d3d56;
-  font-weight: bold;
-}
-/* line 86, partials/themes/matan-light/_bootswatch_overrides.scss */
-body .df-sidebar-nav .nav-pills li.active a {
-  font-weight: bold;
-}
-/* line 90, partials/themes/matan-light/_bootswatch_overrides.scss */
-body .df-sidebar-nav .nav-pills li.active:hover a {
-  color: #5b5bd9;
-}
-
-/* line 98, partials/themes/matan-light/_bootswatch_overrides.scss */
-.well {
-  box-shadow: none;
-}
-
-/* line 102, partials/themes/matan-light/_bootswatch_overrides.scss */
-.btn-default {
-  background-image: none;
-  background-color: transparent;
-  border-color: transparent;
-  opacity: 1 !important;
-}
-
-/* line 113, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 22, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > thead, div.panel .table > thead tr, table.table > thead, table.table > thead tr, table.table.table-striped > thead, table.table.table-striped > thead tr {
   background-color: #1d3d56;
   color: #ffffff;
   height: 38px;
 }
-/* line 118, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 27, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > thead th, div.panel .table > thead tr th, table.table > thead th, table.table > thead tr th, table.table.table-striped > thead th, table.table.table-striped > thead tr th {
   vertical-align: middle;
 }
-/* line 121, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 30, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > thead th > *, div.panel .table > thead tr th > *, table.table > thead th > *, table.table > thead tr th > *, table.table.table-striped > thead th > *, table.table.table-striped > thead tr th > * {
   padding-bottom: 3px;
   padding-left: 5px;
 }
-/* line 131, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 34, partials/themes/matan-light/_tables_override.scss */
+div.panel .table > thead th button, div.panel .table > thead tr th button, table.table > thead th button, table.table > thead tr th button, table.table.table-striped > thead th button, table.table.table-striped > thead tr th button {
+  color: #ffffff;
+}
+/* line 43, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > tbody > tr > td:first-child > .cell-content, table.table > tbody > tr > td:first-child > .cell-content, table.table.table-striped > tbody > tr > td:first-child > .cell-content {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 137, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 49, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > tbody > tr > td:last-child > .cell-content, table.table > tbody > tr > td:last-child > .cell-content, table.table.table-striped > tbody > tr > td:last-child > .cell-content {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 142, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 54, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > tbody > tr td, table.table > tbody > tr td, table.table.table-striped > tbody > tr td {
   padding: 0px;
   border: 0px;
@@ -9457,7 +9402,7 @@ div.panel .table > tbody > tr td, table.table > tbody > tr td, table.table.table
   height: 58px;
   min-width: 80px;
 }
-/* line 150, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 62, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > tbody > tr td .cell-content, table.table > tbody > tr td .cell-content, table.table.table-striped > tbody > tr td .cell-content {
   margin-top: 3px;
   margin-bottom: 3px;
@@ -9471,39 +9416,114 @@ div.panel .table > tbody > tr td .cell-content, table.table > tbody > tr td .cel
   height: 92%;
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 163, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 75, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > tbody > tr td .cell-content *, table.table > tbody > tr td .cell-content *, table.table.table-striped > tbody > tr td .cell-content * {
   margin-top: 0px;
   padding-top: 0px;
   vertical-align: top;
 }
-/* line 169, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 81, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > tbody > tr td .cell-content > *, table.table > tbody > tr td .cell-content > *, table.table.table-striped > tbody > tr td .cell-content > * {
   display: table-cell;
   vertical-align: top;
   padding-top: 8px;
   padding-bottom: 16px;
 }
-/* line 176, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 88, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > tbody > tr td .cell-content > *:first-child, table.table > tbody > tr td .cell-content > *:first-child, table.table.table-striped > tbody > tr td .cell-content > *:first-child {
   padding-left: 13px;
 }
-/* line 180, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 92, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > tbody > tr td .cell-content .fa-check, table.table > tbody > tr td .cell-content .fa-check, table.table.table-striped > tbody > tr td .cell-content .fa-check {
   color: #22bca8;
 }
-/* line 184, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 96, partials/themes/matan-light/_tables_override.scss */
 div.panel .table > tbody > tr td .cell-content .fa-times, table.table > tbody > tr td .cell-content .fa-times, table.table.table-striped > tbody > tr td .cell-content .fa-times {
   color: #f2526a;
 }
 
-/* line 193, partials/themes/matan-light/_bootswatch_overrides.scss */
-.panel {
-  border: none;
+/* line 10, partials/themes/matan-light/_bootswatch_overrides.scss */
+.btn-primary:hover {
+  color: #FFF;
+}
+
+/* line 16, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu {
+  margin: 0px auto !important;
+}
+/* line 22, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container.second-nav-menu-items {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 27, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .df-menu-icon {
+  vertical-align: middle;
+  color: #2e2ea3;
+  padding: 10px 15px 10px 0px;
+  margin: 10px auto;
+}
+/* line 35, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .nav-pills > li:first-child {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+/* line 43, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .nav-pills > li a {
+  color: #7490a9;
+  margin: 10px auto;
+}
+/* line 49, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .nav-pills > li.active {
+  background-color: #f7f9fa;
+}
+/* line 54, partials/themes/matan-light/_bootswatch_overrides.scss */
+.df-menu .df-menu-container .nav-pills > li.active > a, .df-menu .df-menu-container .nav-pills > li.active > a:hover, .df-menu .df-menu-container .nav-pills > li.active > a:focus {
+  font-weight: bold;
+  color: #5b5bd9;
+  background-color: transparent;
+}
+
+/* line 76, partials/themes/matan-light/_bootswatch_overrides.scss */
+body .df-sidebar-nav .nav-pills li > a {
+  padding-left: 0px;
+}
+/* line 80, partials/themes/matan-light/_bootswatch_overrides.scss */
+body .df-sidebar-nav .nav-pills li > a:hover {
+  background: transparent;
+  color: #1d3d56;
+  font-weight: bold;
+}
+/* line 87, partials/themes/matan-light/_bootswatch_overrides.scss */
+body .df-sidebar-nav .nav-pills li.active a {
+  font-weight: bold;
+}
+/* line 91, partials/themes/matan-light/_bootswatch_overrides.scss */
+body .df-sidebar-nav .nav-pills li.active:hover a {
+  color: #5b5bd9;
+}
+
+/* line 99, partials/themes/matan-light/_bootswatch_overrides.scss */
+.well {
   box-shadow: none;
 }
 
-/* line 198, partials/themes/matan-light/_bootswatch_overrides.scss */
+/* line 103, partials/themes/matan-light/_bootswatch_overrides.scss */
+.btn-default {
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent;
+  opacity: 1 !important;
+}
+
+/* line 110, partials/themes/matan-light/_bootswatch_overrides.scss */
+.panel {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+/* line 116, partials/themes/matan-light/_bootswatch_overrides.scss */
 .row-no-padding > [class*="col-"] {
   padding-left: 0 !important;
   padding-right: 0 !important;
