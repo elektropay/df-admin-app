@@ -32,6 +32,10 @@
     }
 
     .nav-pills {
+      li:hover {
+        background-color: $nav-link-hover-bg;
+      }
+
       > li:first-child {
         padding-left: 13px;
         padding-right: 13px;
@@ -72,6 +76,7 @@
 body .df-sidebar-nav {
 
   .nav-pills {
+
     li {
       & > a {
         padding-left: 0px;
