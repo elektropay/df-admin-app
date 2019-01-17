@@ -210,28 +210,6 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
           }
         }
       }
-
-      .resource-link {
-        display: inline-block;
-
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-top: 2px;
-        padding-bottom: 3px;
-
-        margin-bottom: 10px;
-
-        a {
-          color: $text-color;
-          text-decoration: none;
-        }
-
-        &:hover, & a:hover {
-          text-decoration: none;
-          color: $text-color;
-          opacity: 0.88;
-        }
-      }
     }
   }
 
@@ -247,6 +225,29 @@ $top-circle-centering: "32% - (#{ $play-circle-diameter }) / 2";
       font-size: 16px;
       line-height: 1.75;
       margin-bottom: 50px
+    }
+  }
+
+  .resource-link {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    line-height: 1.75;
+    letter-spacing: normal;
+    font-size: 15px;
+
+    a {
+      color: $text-color;
+      text-decoration: none;
+    }
+
+    &:hover, & a:hover {
+      text-decoration: none;
+      color: $text-color;
+      opacity: 0.88;
     }
   }
 }

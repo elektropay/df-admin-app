@@ -9219,37 +9219,40 @@ html body .df-section-toolbar .well .left-arrow i, html body .df-section-toolbar
   margin-top: calc(30% + (1vw / 3) + 3px);
   color: #0a0a75;
 }
-/* line 214, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .second-banner .resource-link {
+/* line 218, partials/themes/matan-light/_homepage.scss */
+.main-page #downloadPage h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+/* line 224, partials/themes/matan-light/_homepage.scss */
+.main-page #downloadPage p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 50px;
+}
+/* line 231, partials/themes/matan-light/_homepage.scss */
+.main-page .resource-link {
   display: inline-block;
   padding-right: 15px;
   padding-left: 15px;
   padding-top: 2px;
   padding-bottom: 3px;
   margin-bottom: 10px;
+  line-height: 1.75;
+  letter-spacing: normal;
+  font-size: 15px;
 }
-/* line 224, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .second-banner .resource-link a {
+/* line 242, partials/themes/matan-light/_homepage.scss */
+.main-page .resource-link a {
   color: #1d3d56;
   text-decoration: none;
 }
-/* line 229, partials/themes/matan-light/_homepage.scss */
-.main-page #welcomePage .second-banner .resource-link:hover, .main-page #welcomePage .second-banner .resource-link a:hover {
+/* line 247, partials/themes/matan-light/_homepage.scss */
+.main-page .resource-link:hover, .main-page .resource-link a:hover {
   text-decoration: none;
   color: #1d3d56;
   opacity: 0.88;
-}
-/* line 240, partials/themes/matan-light/_homepage.scss */
-.main-page #downloadPage h4 {
-  font-size: 16px;
-  font-weight: normal;
-  margin-bottom: 20px;
-}
-/* line 246, partials/themes/matan-light/_homepage.scss */
-.main-page #downloadPage p {
-  font-size: 16px;
-  line-height: 1.75;
-  margin-bottom: 50px;
 }
 
 /* line 3, partials/themes/matan-light/_forms.scss */
