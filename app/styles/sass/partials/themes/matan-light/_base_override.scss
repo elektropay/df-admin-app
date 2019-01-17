@@ -36,6 +36,7 @@ html {
 
         * {
           font-size: 14px;
+          text-shadow: none;
         }
 
         > * {
@@ -48,6 +49,7 @@ html {
         }
 
         .df-download-sdk {
+
           button {
             padding-left: 0px;
           }

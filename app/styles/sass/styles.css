@@ -8981,21 +8981,22 @@ html body .df-section-toolbar .well {
 /* line 37, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well * {
   font-size: 14px;
+  text-shadow: none;
 }
-/* line 46, partials/themes/matan-light/_base_override.scss */
+/* line 47, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well .btn-group {
   float: left !important;
 }
-/* line 51, partials/themes/matan-light/_base_override.scss */
+/* line 53, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well .df-download-sdk button {
   padding-left: 0px;
 }
-/* line 56, partials/themes/matan-light/_base_override.scss */
+/* line 58, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well .left-arrow, html body .df-section-toolbar .well .right-arrow {
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 60, partials/themes/matan-light/_base_override.scss */
+/* line 62, partials/themes/matan-light/_base_override.scss */
 html body .df-section-toolbar .well .left-arrow i, html body .df-section-toolbar .well .right-arrow i {
   width: auto;
 }
