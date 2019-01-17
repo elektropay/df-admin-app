@@ -1,5 +1,26 @@
 html {
   body {
+    .help-container {
+      .help-box {
+        box-shadow: 0 6px 18px -10px rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.1);
+        min-width: 260px;
+
+        .panel-heading, .panel-body {
+          background-color: #FFFFFF;
+          color: $text-color;
+        }
+
+        .panel-heading {
+          font-weight: bold;
+          border-bottom: none;
+        }
+
+        .panel-body {
+          padding-top: 0px;
+        }
+      }
+    }
+
     .df-section {
       background-color: $df-section-background;
       padding-left: 30px;
