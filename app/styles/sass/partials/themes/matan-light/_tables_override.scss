@@ -1,15 +1,93 @@
 $table-rows-radius: 4px;
 
-.table-rows-extendable {
+.table-rows-extendable, table.table.table-rows-extendable {
+  .empty-table-placeholder {
+    color: #718fab;
+    padding-left: 20px;
+
+    i.fa-plus {
+      border-radius: 2px;
+      box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+      background-color: #5b5bd9;
+      color: #ffffff;
+      font-size: 7px;
+      vertical-align: middle;
+      width: 26.5px;
+      height: 19px;
+      padding-top: 6px;
+    }
+  }
+
   thead {
     tr {
+
       th:last-child {
         background-color: $df-section-background;
         border: none;
+        padding: 0px;
+        width: 58px;
 
-        .btn {
-          width: 53px;
-          min-width: 53px;
+        > * {
+          padding-bottom: 0px!important;
+          float: right;
+        }
+        .btn-group {
+          padding-left: 20px;
+          .btn {
+            width: 53px;
+            min-width: 53px;
+            height: 38px;
+            background-image: none;
+            border-radius: 4px;
+            box-shadow: 1px 9px 8px -4px rgba(0, 0, 0, 0.2);
+            background-color: #5b5bd9;
+          }
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      .btn {
+        padding-left: 0px;
+      }
+
+      .input-cell {
+        > * {
+          padding-left: 0px!important;
+          display: block!important;
+
+          input {
+            width: 94%;
+            padding-bottom: 0px;
+          }
+        }
+      }
+
+      .checkbox-cell, .icon-cell {
+        padding-top: 20px!important;
+      }
+
+      .icon-cell {
+        i {
+          font-size: 14px;
+          color: #183b59;
+          text-align: left;
+        }
+
+        .btn:hover, .btn:focus, .btn:active {
+          border: none;
+          background-color: transparent;
+          outline: none;
+          box-shadow: none;
+        }
+      }
+
+      td:last-child {
+        min-width: 0px!important;
+        .cell-content {
+          min-width: 0px;
         }
       }
     }
@@ -37,7 +115,17 @@ div.panel .table, table.table, table.table.table-striped {
     }
   }
 
-  & > tbody {
+  tbody.tbody-transparent {
+    .cell-content {
+      background-color: transparent;
+      box-shadow: none;
+      border-bottom: 1px solid #cfd9e2;
+      border-bottom-left-radius: 0px!important;
+      border-bottom-right-radius: 0px!important;
+    }
+  }
+
+  tbody {
     & > tr {
 
       & > td:first-child > .cell-content {
