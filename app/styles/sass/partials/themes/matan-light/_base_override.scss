@@ -1,5 +1,40 @@
 html {
   body {
+    .df-empty-section-row {
+      .df-empty-section-body {
+        > * {
+          width: 100%;
+          max-width: 491px;
+          text-align: center;
+          margin: auto;
+        }
+
+        h1 {
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 1.4;
+          color: #1d3d56;
+          margin-bottom: 20px;
+        }
+
+        p {
+          line-height: 1.71;
+          color: #2b5172;
+        }
+
+        .btn-success {
+          height: 55px;
+          width: 474px;
+          border-radius: 42.5px;
+          box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+          background-image: linear-gradient(to right, #1717ad, #0a0a75);
+          border: none;
+          margin: auto;
+          margin-top: 25px;
+        }
+      }
+    }
+
     .full-color-bg {
       background-image: none;
       background-color: rgba(236, 239, 242, 0.4);
