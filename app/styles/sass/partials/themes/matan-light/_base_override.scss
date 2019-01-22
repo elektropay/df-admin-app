@@ -1,5 +1,48 @@
 html {
   body {
+
+    .df-service-access {
+      min-width: $screen-md-min;
+
+      .df-service-access-heading {
+        border-radius: 4px;
+        box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+        background-color: #1d3d56;
+        color: #ffffff;
+        height: 38px;
+        line-height: 38px;
+        vertical-align: middle;
+        font-weight: bold;
+        padding-left: 20px;
+        width: calc(99% - (#{ $add-rows-btn-width } + 20px + 20px));
+        float: left;
+
+        i {
+          color: #ffffff;
+        }
+      }
+
+      .add-rows-btn {
+        float: right;
+        margin-right: 20px;
+      }
+
+      .df-sa-columns {
+        color: #2b5172;
+
+        label {
+          margin-top: 10px;
+          padding-left: 18px;
+        }
+      }
+
+      .df-service-access-body {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
+
+
     .df-empty-section-row {
       .df-empty-section-body {
         > * {

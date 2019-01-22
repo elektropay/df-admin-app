@@ -1,22 +1,35 @@
 $table-rows-radius: 4px;
+$add-rows-btn-width: 53px;
+
+.add-rows-btn, .add-rows-btn:hover {
+  width: $add-rows-btn-width;
+  min-width: $add-rows-btn-width;
+  height: 38px;
+  color: #ffffff;
+  background-image: none!important;
+  border-radius: 4px!important;
+  box-shadow: 1px 9px 8px -4px rgba(0, 0, 0, 0.2)!important;
+  background-color: #5b5bd9!important;
+}
+
+.empty-table-placeholder {
+  color: #718fab;
+  padding-left: 20px;
+
+  i.fa-plus {
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+    background-color: #5b5bd9;
+    color: #ffffff;
+    font-size: 7px;
+    vertical-align: middle;
+    width: 26.5px;
+    height: 19px;
+    padding-top: 6px;
+  }
+}
 
 .table-rows-extendable, table.table.table-rows-extendable {
-  .empty-table-placeholder {
-    color: #718fab;
-    padding-left: 20px;
-
-    i.fa-plus {
-      border-radius: 2px;
-      box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
-      background-color: #5b5bd9;
-      color: #ffffff;
-      font-size: 7px;
-      vertical-align: middle;
-      width: 26.5px;
-      height: 19px;
-      padding-top: 6px;
-    }
-  }
 
   thead {
     tr {
@@ -34,13 +47,7 @@ $table-rows-radius: 4px;
         .btn-group {
           padding-left: 20px;
           .btn {
-            width: 53px;
-            min-width: 53px;
-            height: 38px;
-            background-image: none;
-            border-radius: 4px;
-            box-shadow: 1px 9px 8px -4px rgba(0, 0, 0, 0.2);
-            background-color: #5b5bd9;
+            @extend .add-rows-btn
           }
         }
       }
@@ -50,8 +57,7 @@ $table-rows-radius: 4px;
   tbody {
     tr {
       .btn {
-        padding-left: 0px;
-      }
+        padding-left: 0px;}
 
       .input-cell {
         > * {

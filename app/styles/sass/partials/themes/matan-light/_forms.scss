@@ -1,5 +1,13 @@
 html {
   body {
+    form.df-inputs-width {
+      .df-inputs-row {
+        > * {
+          max-width: 500px
+        }
+      }
+    }
+
     input, input.form-control {
       border: 1px solid #cfd9e2;
     }

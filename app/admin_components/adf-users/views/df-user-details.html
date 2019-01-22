@@ -4,7 +4,7 @@
     <df-details-header data-new="newUser" data-api-name="'User'" data-name="user.record.display_name"></df-details-header>
 
     <!-- Create User Form -->
-    <form name="create-user" data-ng-submit="saveUser()" autocomplete="off">
+    <form class="df-inputs-width" name="create-user" data-ng-submit="saveUser()" autocomplete="off">
 
         <ul class="nav nav-tabs" data-role="tablist">
             <li class="active">
@@ -26,8 +26,8 @@
 
         <div class="tab-content" style="margin-top: 20px">
             <div id="basic" class="tab-pane active">
-                <div class="row">
-                    <div class="col-md-6" style="max-width: 500px">
+                <div class="row df-inputs-row">
+                    <div class="col-md-6">
                         <!-- User Username -->
                         <div class="form-group">
                             <label>{{ (loginAttribute==='username')? 'Username (Required for login)' : 'Username (Optional, defaults to email address)'}}</label>
@@ -65,7 +65,7 @@
                         </div>
                         <hr />
                     </div>
-                    <div class="col-md-5" style="max-width: 500px">
+                    <div class="col-md-5">
 
                         <!-- User Invite/Confirmation -->
                         <div class="form-group">
