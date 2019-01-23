@@ -1,9 +1,22 @@
+$df-inputs-max-width: 500px;
+
 html {
   body {
+
+    .list-group-item, table, .form-group {
+      button.dropdown-toggle, .dropdown-menu {
+        background-color: #ffffff;
+        border: 1px solid #cfd9e2;
+        border-radius: 4px;
+      }
+    }
+
     form.df-inputs-width {
       .df-inputs-row {
-        > * {
-          max-width: 500px
+        > input, select, .dropdown-toggle, .dropdown-menu {
+          width: 100%;
+          max-width: $df-inputs-max-width;
+          text-align: left;
         }
       }
     }

@@ -106,11 +106,13 @@ body .df-sidebar-nav {
   box-shadow: none;
 }
 
-.btn-default {
-  background-image: none;
-  background-color: transparent;
-  border-color: transparent;
-  opacity: 1!important;
+.well, table {
+  .btn-default {
+    background-image: none;
+    background-color: transparent;
+    border-color: transparent;
+    opacity: 1!important;
+  }
 }
 
 .panel {

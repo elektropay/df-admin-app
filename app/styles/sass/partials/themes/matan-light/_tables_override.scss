@@ -64,7 +64,7 @@ $add-rows-btn-width: 53px;
           padding-left: 0px!important;
           display: block!important;
 
-          input {
+          input, select {
             width: 94%;
             padding-bottom: 0px;
           }
@@ -76,6 +76,10 @@ $add-rows-btn-width: 53px;
       }
 
       .icon-cell {
+        button {
+          padding-top: 0px;
+        }
+
         i {
           font-size: 14px;
           color: #183b59;
@@ -166,7 +170,7 @@ div.panel .table, table.table, table.table.table-striped {
           height: 92%;
           box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
 
-          * {
+          input, i {
             margin-top: 0px;
             padding-top: 0px;
             vertical-align: top;
