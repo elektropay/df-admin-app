@@ -9808,7 +9808,6 @@ body {
 /* line 41, partials/_base.scss */
 .df-section {
   height: 100%;
-  overflow: scroll;
   padding: 0 20px 20px;
 }
 @media screen and (max-width: 992px) {
@@ -9818,25 +9817,25 @@ body {
   }
 }
 
-/* line 65, partials/_base.scss */
+/* line 64, partials/_base.scss */
 .df-section-all-round {
   border-radius: 4px;
 }
 @media screen and (max-width: 992px) {
-  /* line 65, partials/_base.scss */
+  /* line 64, partials/_base.scss */
   .df-section-all-round {
     border-radius: 3px;
   }
 }
 
-/* line 76, partials/_base.scss */
+/* line 75, partials/_base.scss */
 .df-section-3-round {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
 }
 
-/* line 84, partials/_base.scss */
+/* line 83, partials/_base.scss */
 .df-section-header {
   text-align: right;
   color: white;
@@ -9844,24 +9843,24 @@ body {
   padding: 10px 15px 11px;
   margin-bottom: 10px;
 }
-/* line 92, partials/_base.scss */
+/* line 91, partials/_base.scss */
 .df-section-header h4 {
   margin: 0;
   color: #eeeeee;
 }
 
-/* line 100, partials/_base.scss */
+/* line 99, partials/_base.scss */
 .df-empty-section-row {
   margin-top: 50px;
 }
 
-/* line 108, partials/_base.scss */
+/* line 107, partials/_base.scss */
 .df-btn-group {
   margin-left: 5px;
   margin-right: 5px;
 }
 
-/* line 113, partials/_base.scss */
+/* line 112, partials/_base.scss */
 .df-search-box {
   margin-left: 10px;
   padding-left: 10px;
@@ -9870,12 +9869,12 @@ body {
   height: 30px;
 }
 
-/* line 121, partials/_base.scss */
+/* line 120, partials/_base.scss */
 .df-tab-has-error {
   color: red !important;
 }
 
-/* line 125, partials/_base.scss */
+/* line 124, partials/_base.scss */
 .mask {
   position: fixed;
   top: 0;
@@ -9887,7 +9886,7 @@ body {
   display: none;
 }
 
-/* line 137, partials/_base.scss */
+/* line 136, partials/_base.scss */
 #top-bar-mask {
   position: fixed;
   top: 0;
@@ -9899,7 +9898,7 @@ body {
   display: none;
 }
 
-/* line 149, partials/_base.scss */
+/* line 148, partials/_base.scss */
 #df-copyright-footer {
   position: fixed;
   width: 100%;
@@ -9910,25 +9909,25 @@ body {
   background: #888;
 }
 
-/* line 159, partials/_base.scss */
+/* line 158, partials/_base.scss */
 .df-footer-text {
   padding: 10px;
   display: inline-block;
   font-size: 12px;
 }
 @media screen and (max-width: 992px) {
-  /* line 159, partials/_base.scss */
+  /* line 158, partials/_base.scss */
   .df-footer-text {
     font-size: 10px;
   }
 }
 
-/* line 172, partials/_base.scss */
+/* line 171, partials/_base.scss */
 .table tr {
   cursor: pointer;
 }
 
-/* line 176, partials/_base.scss */
+/* line 175, partials/_base.scss */
 .fa-clipboard {
   cursor: pointer;
 }
