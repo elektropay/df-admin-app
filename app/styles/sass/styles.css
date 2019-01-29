@@ -9682,6 +9682,12 @@ html body .df-section-toolbar .well .left-arrow i, html body .df-section-toolbar
   cursor: pointer !important;
 }
 
+/* line 181, partials/themes/matan-light/_base_override.scss */
+#scripting-bc-nav {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
 /* line 11, partials/themes/matan-light/_bootswatch_overrides.scss */
 .btn-primary:hover {
   color: #FFF;
