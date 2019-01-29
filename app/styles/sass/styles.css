@@ -9677,6 +9677,11 @@ html body .df-section-toolbar .well .left-arrow i, html body .df-section-toolbar
   width: auto;
 }
 
+/* line 177, partials/themes/matan-light/_base_override.scss */
+.pointerize {
+  cursor: pointer !important;
+}
+
 /* line 11, partials/themes/matan-light/_bootswatch_overrides.scss */
 .btn-primary:hover {
   color: #FFF;
